@@ -1,0 +1,1509 @@
+[ 2019-12-11T11:12:02+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.010742s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.004883s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.002930s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:12:05+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.001953s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:12:24+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T11:13:01+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:13:11+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:13:27+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000000s ]
+
+[ 2019-12-11T11:13:53+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:16:33+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:18:28+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T11:19:08+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:20:04+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.001954s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:21:03+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:21:23+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T11:21:59+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T11:23:22+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000000s ]
+
+[ 2019-12-11T11:25:37+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.001953s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:29:09+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:40:44+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T11:45:34+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T11:48:23+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T11:51:39+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:52:51+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T11:53:08+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='' and yggh='' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.011719s ]
+
+[ 2019-12-11T11:53:17+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:53:19+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='' and yggh='' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:53:24+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='' and ygmc='' and jhrq  between '2019-12-01 00:00:00' and '2019-12-31 23:59:59' order by jhrq,kh [ RunTime:0.013672s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='' and ygmc='' and cast(jhrq as datetime)  between '2019-12-01 00:00:00' and '2019-12-31 23:59:59'  [ RunTime:0.009766s ]
+
+[ 2019-12-11T11:53:29+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='' and ygmc='' and jhrq  between '2019-12-11 00:00:00' and '2019-12-11 23:59:59' order by jhrq,kh [ RunTime:0.011719s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='' and ygmc='' and cast(jhrq as datetime)  between '2019-12-11 00:00:00' and '2019-12-11 23:59:59'  [ RunTime:0.009765s ]
+
+[ 2019-12-11T11:54:39+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000000s ]
+
+[ 2019-12-11T11:57:08+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:57:10+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='' and ygmc='' and jhrq  between '2019-12-11 00:00:00' and '2019-12-11 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='' and ygmc='' and cast(jhrq as datetime)  between '2019-12-11 00:00:00' and '2019-12-11 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:57:40+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.001953s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T11:57:43+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='' and yggh='' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:58:24+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T11:58:54+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000000s ]
+
+[ 2019-12-11T11:59:19+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T11:59:23+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.010742s ]
+
+[ 2019-12-11T11:59:43+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T13:26:10+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000000s ]
+
+[ 2019-12-11T13:26:24+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.001953s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.001953s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T13:26:27+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000977s ]
+
+[ 2019-12-11T13:26:42+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-12-11 00:00:00' and '2019-12-11 23:59:59' order by jhrq,kh [ RunTime:0.014648s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-12-11 00:00:00' and '2019-12-11 23:59:59'  [ RunTime:0.009765s ]
+
+[ 2019-12-11T13:27:39+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000000s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000000s ]
+
+[ 2019-12-11T13:27:41+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000977s ]
+
+[ 2019-12-11T13:30:35+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T13:30:47+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T13:31:20+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T13:31:21+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000977s ]
+
+[ 2019-12-11T13:31:30+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-12-11 00:00:00' and '2019-12-11 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-12-11 00:00:00' and '2019-12-11 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T13:31:39+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-12-11 00:00:00' and '2019-12-11 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.006836s ]
+
+[ 2019-12-11T13:31:42+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Fg/fgjlcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select CONVERT(varchar(100),rq,23)as rq,ygmc,kh,kslx,gxmc,ysmc,ms,sl,jhsl  from scfgdj where rq
+ between '2019-12-11 00:00:00' and '2019-12-11 23:59:59' order by ygmc,kh,rq [ RunTime:0.006836s ]
+
+[ 2019-12-11T13:32:52+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000000s ]
+
+[ 2019-12-11T13:32:55+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000977s ]
+
+[ 2019-12-11T13:32:58+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-12-11 00:00:00' and '2019-12-11 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-12-11 00:00:00' and '2019-12-11 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T13:33:58+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000000s ]
+
+[ 2019-12-11T13:34:02+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.001953s ]
+
+[ 2019-12-11T13:34:35+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.001954s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000000s ]
+
+[ 2019-12-11T13:34:38+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.004882s ]
+
+[ 2019-12-11T13:34:49+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-12-11 00:00:00' and '2019-12-11 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-12-11 00:00:00' and '2019-12-11 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-12-11T13:35:34+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000000s ]
+
+[ 2019-12-11T13:36:27+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.001953s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000000s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000000s ]
+
+[ 2019-12-11T13:37:01+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T13:37:03+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Fg/fgjlcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select CONVERT(varchar(100),rq,23)as rq,ygmc,kh,kslx,gxmc,ysmc,ms,sl,jhsl  from scfgdj where rq
+ between '2019-12-11 00:00:00' and '2019-12-11 23:59:59' order by ygmc,kh,rq [ RunTime:0.002930s ]
+
+[ 2019-12-11T13:37:14+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-12-11 00:00:00' and '2019-12-11 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.001953s ]
+
+[ 2019-12-11T13:37:34+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.001953s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T13:37:43+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/cxbm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select bm  from dabmda order by id [ RunTime:0.004883s ]
+
+[ 2019-12-11T13:37:45+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select ygmc,yggh from daygda where bm='车间' [ RunTime:0.006835s ]
+
+[ 2019-12-11T13:37:46+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/cxgx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select b.gxmc,a.yggh,a.xh from dagx_ygfp a,dagxda b where a.xh=b.xh and a.yggh='12' order by a.xh asc [ RunTime:0.006836s ]
+
+[ 2019-12-11T13:37:47+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select ygmc,yggh from daygda where bm='车间' [ RunTime:0.000976s ]
+
+[ 2019-12-11T13:37:48+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/cxgx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select b.gxmc,a.yggh,a.xh from dagx_ygfp a,dagxda b where a.xh=b.xh and a.yggh='90001' order by a.xh asc [ RunTime:0.006836s ]
+
+[ 2019-12-11T13:37:59+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL:  delete dagx_ygfp where xh in ('1911011320462062728') and yggh='90001' [ RunTime:0.003907s ]
+
+[ 2019-12-11T13:39:46+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T13:40:01+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000977s ]
+
+[ 2019-12-11T13:40:04+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.001953s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912100123' and a.yggh='' and qhqr=0)  [ RunTime:0.028320s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912100123' [ RunTime:0.008790s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.004882s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh,jhsl,wjsl as sys from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90001') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912100123' order by px
+        [ RunTime:0.016601s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912100123' and px<(select px from scjhdj where jhrq='' and gpm='19121000000246') order by px desc [ RunTime:0.004883s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]���� 'jhqr' ��Ч��16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]���α�δ������
+ [ SQL语句 ] : select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912100123' and px<(select px from scjhdj where jhrq='' and gpm='19121000000246') order by px desc
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19121000000246' and tmbh='1912100123' [ RunTime:0.005859s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19121000000246') order by px desc  [ RunTime:0.001953s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]��Ӧʹ��������������(�� 'and' ����)��ָ���˷ǲ������͵ı���ʽ��16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19121000000246') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='19121000000246' [ RunTime:0.006836s ]
+SQL: update scjhdj set jhsl='250.0000',je='250.0000'*dj,ygmc='小飓',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19121000000246' [ RunTime:0.156250s ]
+
+[ 2019-12-11T13:40:17+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000977s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912100126' and a.yggh='' and qhqr=0)  [ RunTime:0.026367s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912100126' [ RunTime:0.007812s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000000s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh,jhsl,wjsl as sys from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90001') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912100126' order by px
+        [ RunTime:0.013672s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912100126' and px<(select px from scjhdj where jhrq='' and gpm='19121000000252') order by px desc [ RunTime:0.001953s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]���� 'jhqr' ��Ч��16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]���α�δ������
+ [ SQL语句 ] : select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912100126' and px<(select px from scjhdj where jhrq='' and gpm='19121000000252') order by px desc
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19121000000252' and tmbh='1912100126' [ RunTime:0.005859s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19121000000252') order by px desc  [ RunTime:0.000977s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]��Ӧʹ��������������(�� 'and' ����)��ָ���˷ǲ������͵ı���ʽ��16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19121000000252') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='19121000000252' [ RunTime:0.004883s ]
+SQL: update scjhdj set jhsl='100.0000',je='100.0000'*dj,ygmc='小飓',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19121000000252' [ RunTime:0.008789s ]
+
+[ 2019-12-11T13:40:43+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000977s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912100120' and a.yggh='' and qhqr=0)  [ RunTime:0.025390s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912100120'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.017578s ]
+
+[ 2019-12-11T13:41:00+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000976s ]
+
+[ 2019-12-11T13:41:02+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.001954s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912100120' and a.yggh='' and qhqr=0)  [ RunTime:0.000976s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912100120'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.001953s ]
+
+[ 2019-12-11T13:47:15+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.001953s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110029' and a.yggh='' and qhqr=0)  [ RunTime:0.033204s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110029'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.024414s ]
+
+[ 2019-12-11T13:49:16+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.001953s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='' and a.yggh='' and qhqr=0)  [ RunTime:0.024414s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='' [ RunTime:0.007812s ]
+
+[ 2019-12-11T13:49:41+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000976s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110129' and a.yggh='' and qhqr=0)  [ RunTime:0.026367s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110129'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.018555s ]
+
+[ 2019-12-11T13:50:40+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000000s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000000s ]
+
+[ 2019-12-11T13:50:44+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.001953s ]
+
+[ 2019-12-11T13:50:46+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.001953s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110130' and a.yggh='' and qhqr=0)  [ RunTime:0.025391s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110130'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.019532s ]
+
+[ 2019-12-11T13:50:57+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000977s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110130' and a.yggh='' and qhqr=0)  [ RunTime:0.001953s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110130'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.001953s ]
+
+[ 2019-12-11T13:51:38+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T13:51:41+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.001953s ]
+
+[ 2019-12-11T13:51:45+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.001953s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110130' and a.yggh='' and qhqr=0)  [ RunTime:0.001953s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110130'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.001953s ]
+
+[ 2019-12-11T13:54:50+08:00 ] ::1 /aaaxcx/home/gpsm/gpsmcx?tmbh=1912110129&ygmc=%E5%B0%8F%E9%A3%93&yggh=90001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000977s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110129' and a.yggh='' and qhqr=0)  [ RunTime:0.002930s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110129'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.001953s ]
+
+[ 2019-12-11T13:59:00+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T14:01:04+08:00 ] ::1 /aaaxcx/home/gpsm/gpsmcx?tmbh=1912110129&ygmc=%E5%B0%8F%E9%A3%93&yggh=90001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000977s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110129' and a.yggh='' and qhqr=0)  [ RunTime:0.002930s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110129'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.002930s ]
+
+[ 2019-12-11T14:01:09+08:00 ] ::1 /aaaxcx/home/gpsm/gpsmcx?tmbh=1912110129&ygmc=%E5%B0%8F%E9%A3%93&yggh=90001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.001953s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110129' and a.yggh='' and qhqr=0)  [ RunTime:0.004882s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110129'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.002929s ]
+
+[ 2019-12-11T14:01:36+08:00 ] ::1 /aaaxcx/home/gpsm/gpsmcx?tmbh=1912110129&ygmc=%E5%B0%8F%E9%A3%93&yggh=90001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.001953s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110129' and a.yggh='' and qhqr=0)  [ RunTime:0.003906s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110129'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.001954s ]
+
+[ 2019-12-11T14:01:38+08:00 ] ::1 /aaaxcx/home/gpsm/gpsmcx?tmbh=1912110129&ygmc=%E5%B0%8F%E9%A3%93&yggh=90001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.001953s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110129' and a.yggh='' and qhqr=0)  [ RunTime:0.001953s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110129'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.004883s ]
+
+[ 2019-12-11T14:01:38+08:00 ] ::1 /aaaxcx/home/gpsm/gpsmcx?tmbh=1912110129&ygmc=%E5%B0%8F%E9%A3%93&yggh=90001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.001953s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110129' and a.yggh='' and qhqr=0)  [ RunTime:0.002930s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110129'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.002930s ]
+
+[ 2019-12-11T14:01:39+08:00 ] ::1 /aaaxcx/home/gpsm/gpsmcx?tmbh=1912110129&ygmc=%E5%B0%8F%E9%A3%93&yggh=90001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.001953s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110129' and a.yggh='' and qhqr=0)  [ RunTime:0.001954s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110129'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.003906s ]
+
+[ 2019-12-11T14:01:42+08:00 ] ::1 /aaaxcx/home/gpsm/gpsmcx?tmbh=1912110129&ygmc=%E5%B0%8F%E9%A3%93&yggh=90002
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.002930s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90002' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110129' and a.yggh='' and qhqr=0)  [ RunTime:0.032227s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912110129' [ RunTime:0.011718s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.001953s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90002') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912110129' order by px
+        [ RunTime:0.017578s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php 第 60 行.
+SQL: select top 1 gxmc from scjhdj where jhrq='' and bz=''  and yydh_wfxs='' 
+           and tmbh='1912110129' order  by px [ RunTime:0.012695s ]
+
+[ 2019-12-11T14:01:46+08:00 ] ::1 /aaaxcx/home/gpsm/gpsmcx?tmbh=1912110129&ygmc=%E5%B0%8F%E9%A3%93&yggh=90001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.001953s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110129' and a.yggh='' and qhqr=0)  [ RunTime:0.002930s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110129'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.002930s ]
+
+[ 2019-12-11T14:01:57+08:00 ] ::1 /aaaxcx/home/gpsm/gpsmcx?tmbh=1912110129&ygmc=%E5%B0%8F%E9%A3%93&yggh=90001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.001953s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110129' and a.yggh='' and qhqr=0)  [ RunTime:0.002930s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110129'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.003906s ]
+
+[ 2019-12-11T14:03:43+08:00 ] ::1 /aaaxcx/home/gpsm/gpsmcx?tmbh=1912110129&ygmc=%E5%B0%8F%E9%A3%93&yggh=90001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.001953s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110129' and a.yggh='' and qhqr=0)  [ RunTime:0.002929s ]
+SQL: select dj,ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110129'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.022461s ]
+
+[ 2019-12-11T14:03:52+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000976s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110130' and a.yggh='' and qhqr=0)  [ RunTime:0.001953s ]
+SQL: select dj,ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110130'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.001953s ]
+
+[ 2019-12-11T14:04:12+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0003' and zt=1 [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='0003007' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0003007') [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0003'  [ RunTime:0.000977s ]
+
+[ 2019-12-11T14:04:15+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.001953s ]
+
+[ 2019-12-11T14:04:17+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000976s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110130' and a.yggh='' and qhqr=0)  [ RunTime:0.000976s ]
+SQL: select dj,ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110130'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.000977s ]
+
+[ 2019-12-11T14:04:20+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Xgxjh/qdjh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select * from scjhdj where gpm='19121100000260' [ RunTime:0.008789s ]
+SQL: select * from bcps where gpm='19121100000260' [ RunTime:0.019531s ]
+SQL: update scjhdj set jhsl='250.0000',je=250.0000*dj,ygmc='小飓',yggh='90001',jhrq=convert(varchar(22),getdate(),120),
+                lhrq=convert(varchar(22),getdate(),120) where gpm='19121100000260'  [ RunTime:0.057617s ]
+
+[ 2019-12-11T14:04:23+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000976s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110130' and a.yggh='' and qhqr=0)  [ RunTime:0.000977s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912110130' [ RunTime:0.006836s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000000s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90001') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912110130' order by px
+        [ RunTime:0.012696s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php 第 59 行.
+SQL: select top 1 gxmc from scjhdj where jhrq='' and bz=''  and yydh_wfxs='' 
+           and tmbh='1912110130' order  by px [ RunTime:0.008789s ]
+
+[ 2019-12-11T14:04:27+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000977s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1912110131' and a.yggh='' and qhqr=0)  [ RunTime:0.025391s ]
+SQL: select dj,ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912110131'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.018555s ]
+
+[ 2019-12-11T14:04:34+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Xgxjh/qdjh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select * from scjhdj where gpm='19121100000262' [ RunTime:0.000000s ]
+SQL: select * from bcps where gpm='19121100000262' [ RunTime:0.017578s ]
+SQL: update scjhdj set jhsl='250.0000',je=250.0000*dj,ygmc='小飓',yggh='90001',jhrq=convert(varchar(22),getdate(),120),
+                lhrq=convert(varchar(22),getdate(),120) where gpm='19121100000262'  [ RunTime:0.008789s ]
+

@@ -1,0 +1,2796 @@
+[ 2019-11-06T09:11:13+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.002930s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.131836s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.082031s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.012696s ]
+
+[ 2019-11-06T09:12:41+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-06T09:13:44+08:00 ] ::1 /aaaxcx/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:14:01+08:00 ] ::1 /aaaxcx/home/login/login?dh=001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.157227s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='' [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-06T09:14:53+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.000976s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.001953s ]
+
+[ 2019-11-06T09:14:58+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:15:00+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-06T09:15:00+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-06T09:15:01+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-06T09:15:01+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:15:01+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:15:01+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:15:02+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:15:05+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:15:06+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:15:07+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:15:08+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:15:52+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.001953s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+NOTIC: [2] json_encode() [<a href='function.json-encode'>function.json-encode</a>]: recursion detected D:\WWW\aaaxcx\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-11-06T09:18:07+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.000977s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:18:18+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:18:20+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:18:21+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:18:21+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:18:22+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:18:22+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:18:22+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-06T09:18:58+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:19:02+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.002930s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:19:05+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:19:08+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:19:09+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-06T09:19:10+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:19:10+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-06T09:19:11+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:19:11+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-06T09:19:24+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-06T09:19:30+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:19:53+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.001953s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.001953s ]
+
+[ 2019-11-06T09:19:55+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:22:54+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:22:58+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000000s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:23:01+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-06T09:23:27+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:23:47+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:23:49+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:37:42+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:39:52+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000000s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.000976s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:39:57+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-06T09:40:40+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:40:56+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-06T09:41:40+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:41:46+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-06T09:42:40+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004882s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:42:43+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-06T09:42:59+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.000976s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000000s ]
+
+[ 2019-11-06T09:43:02+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-06T09:43:27+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001954s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.001953s ]
+
+[ 2019-11-06T09:43:29+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-06T09:44:33+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:45:01+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.000977s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:45:21+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000000s ]
+
+[ 2019-11-06T09:45:59+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:46:01+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-06T09:46:42+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:47:01+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.001953s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001954s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:47:07+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000000s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.000000s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.001953s ]
+
+[ 2019-11-06T09:47:10+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.004883s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.005859s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:47:22+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000000s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:47:35+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.000976s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000000s ]
+
+[ 2019-11-06T09:48:08+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:48:10+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000000s ]
+
+[ 2019-11-06T09:48:34+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:49:10+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:49:15+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-06T09:49:44+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.004882s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.001953s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.001953s ]
+
+[ 2019-11-06T09:49:47+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-06T09:50:06+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.001954s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:50:09+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-06T09:50:12+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:50:14+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-06T09:50:34+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:50:37+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-06T09:51:02+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.000976s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:51:14+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001954s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:51:22+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.000977s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000000s ]
+
+[ 2019-11-06T09:51:41+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:51:44+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-06T09:52:13+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:52:53+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001954s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000000s ]
+
+[ 2019-11-06T09:52:57+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000000s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001954s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:53:23+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:53:25+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-06T09:53:59+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000000s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.000977s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:54:02+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-06T09:54:20+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000000s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.000976s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+
+[ 2019-11-06T09:55:23+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T09:56:09+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000000s ]
+
+[ 2019-11-06T09:56:11+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: ym D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 21 行.
+NOTIC: [8] Undefined index: sjkmc D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: yh D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 23 行.
+NOTIC: [8] Undefined index: sjkmm D:\WWW\aaaxcx\Application\Home\Controller\CommonController.class.php 第 24 行.
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-06T09:57:34+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T11:01:56+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.001953s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T11:01:58+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-06T11:02:05+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-06 00:00:00' and '2019-11-06 23:59:59' order by jhrq,kh [ RunTime:0.032226s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-06 00:00:00' and '2019-11-06 23:59:59'  [ RunTime:0.009765s ]
+
+[ 2019-11-06T11:02:15+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.009766s ]
+
+[ 2019-11-06T11:02:21+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.001953s ]
+
+[ 2019-11-06T11:02:39+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1911020012' [ RunTime:0.010742s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.016601s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90001') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1911020012' order by px
+        [ RunTime:0.019531s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php 第 46 行.
+SQL: select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1911020012' order  by px [ RunTime:0.009766s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]���� 'jhqr' ��Ч��207:[Microsoft][SQL Server Native Client 10.0][SQL Server]���� 'yydh_wflx' ��Ч��16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]���α�δ������
+ [ SQL语句 ] : select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1911020012' order  by px
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='' and tmbh='1911020012' [ RunTime:0.005859s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php 第 80 行.
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc  [ RunTime:0.001954s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]��Ӧʹ��������������(�� 'and' ����)��ָ���˷ǲ������͵ı���ʽ��16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='' [ RunTime:0.003906s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php 第 94 行.
+SQL: update scjhdj set jhsl='',je=''*dj,ygmc='小飓',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm='' [ RunTime:0.021484s ]
+ERR: 8114:[Microsoft][SQL Server Native Client 10.0][SQL Server]���������� varchar ת��Ϊ numeric ʱ������
+ [ SQL语句 ] : update scjhdj set jhsl='',je=''*dj,ygmc='小飓',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm=''
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-06T11:02:52+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1911020012' [ RunTime:0.000977s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000977s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90001') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1911020012' order by px
+        [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php 第 46 行.
+SQL: select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1911020012' order  by px [ RunTime:0.000977s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]���� 'jhqr' ��Ч��207:[Microsoft][SQL Server Native Client 10.0][SQL Server]���� 'yydh_wflx' ��Ч��16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]���α�δ������
+ [ SQL语句 ] : select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1911020012' order  by px
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='' and tmbh='1911020012' [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php 第 80 行.
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc  [ RunTime:0.000977s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]��Ӧʹ��������������(�� 'and' ����)��ָ���˷ǲ������͵ı���ʽ��16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='' [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php 第 94 行.
+SQL: update scjhdj set jhsl='',je=''*dj,ygmc='小飓',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm='' [ RunTime:0.000977s ]
+ERR: 8114:[Microsoft][SQL Server Native Client 10.0][SQL Server]���������� varchar ת��Ϊ numeric ʱ������
+ [ SQL语句 ] : update scjhdj set jhsl='',je=''*dj,ygmc='小飓',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm=''
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-06T11:03:01+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpcx/gpcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select ch,sb,a.kh,ysmc,ms,CEILING(sl)as sl,zh,ygmc,gxmc,CONVERT(nvarchar(30),ISNULL(CEILING(jhsl),0)) as jhsl,CONVERT(nvarchar(30),CONVERT(decimal(18,6),dj))as dj,
+CONVERT(nvarchar(30),CONVERT(decimal(18,6),je))as je,(case when bz<> '' then '作废' else '未作废' end)as bz,zt from scjhdj a where tmbh='1911020012'  order by px
+        [ RunTime:0.007813s ]
+
+[ 2019-11-06T11:03:13+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000976s ]
+
+[ 2019-11-06T11:03:15+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1911020012' [ RunTime:0.001953s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000976s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90001') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1911020012' order by px
+        [ RunTime:0.001953s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php 第 46 行.
+SQL: select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1911020012' order  by px [ RunTime:0.000977s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]���� 'jhqr' ��Ч��207:[Microsoft][SQL Server Native Client 10.0][SQL Server]���� 'yydh_wflx' ��Ч��16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]���α�δ������
+ [ SQL语句 ] : select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1911020012' order  by px
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='' and tmbh='1911020012' [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php 第 80 行.
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc  [ RunTime:0.000976s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]��Ӧʹ��������������(�� 'and' ����)��ָ���˷ǲ������͵ı���ʽ��16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='' [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php 第 94 行.
+SQL: update scjhdj set jhsl='',je=''*dj,ygmc='小飓',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm='' [ RunTime:0.001953s ]
+ERR: 8114:[Microsoft][SQL Server Native Client 10.0][SQL Server]���������� varchar ת��Ϊ numeric ʱ������
+ [ SQL语句 ] : update scjhdj set jhsl='',je=''*dj,ygmc='小飓',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm=''
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T11:08:52+08:00 ] 192.168.8.66 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.000977s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000000s ]
+
+[ 2019-11-06T11:09:07+08:00 ] 192.168.8.66 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-06 00:00:00' and '2019-11-06 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-06 00:00:00' and '2019-11-06 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-06T11:09:54+08:00 ] 192.168.8.66 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order by jhrq,kh [ RunTime:0.009765s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-30 23:59:59'  [ RunTime:0.008790s ]
+
+[ 2019-11-06T11:09:58+08:00 ] 192.168.8.66 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-06 00:00:00' and '2019-11-06 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-06 00:00:00' and '2019-11-06 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-06T11:09:59+08:00 ] 192.168.8.66 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-05 00:00:00' and '2019-11-05 23:59:59' order by jhrq,kh [ RunTime:0.009765s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-05 00:00:00' and '2019-11-05 23:59:59'  [ RunTime:0.009766s ]
+
+[ 2019-11-06T11:11:08+08:00 ] 192.168.8.66 /aaaxcx/index.php/home/Gpcx/gpcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select ch,sb,a.kh,ysmc,ms,CEILING(sl)as sl,zh,ygmc,gxmc,CONVERT(nvarchar(30),ISNULL(CEILING(jhsl),0)) as jhsl,CONVERT(nvarchar(30),CONVERT(decimal(18,6),dj))as dj,
+CONVERT(nvarchar(30),CONVERT(decimal(18,6),je))as je,(case when bz<> '' then '作废' else '未作废' end)as bz,zt from scjhdj a where tmbh='1911020001'  order by px
+        [ RunTime:0.007813s ]
+
+[ 2019-11-06T11:12:21+08:00 ] 192.168.8.66 /aaaxcx/index.php/home/Cj/cjjdcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select ch,kh,gxmc,px,ceiling(ISNULL(SUM(sl), 0)) as sl,ceiling(isnull(sum(jhsl),0))as jhsl,
+CEILING(ISNULL((sum(sl)-SUM(isnull(jhsl,0))),0))as wjsl,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where ch=(select top 1 ch from scjhdj where tmbh='1911020001') group by ch,kh,gxmc,px,bz order by bz [ RunTime:0.012695s ]
+
+[ 2019-11-06T11:13:03+08:00 ] 192.168.8.66 /aaaxcx/index.php/home/Yggx/cxbm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select bm  from dabmda order by id [ RunTime:0.002929s ]
+
+[ 2019-11-06T11:13:08+08:00 ] 192.168.8.66 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select ygmc,yggh from daygda where bm='车间' [ RunTime:0.005859s ]
+
+[ 2019-11-06T11:13:11+08:00 ] 192.168.8.66 /aaaxcx/index.php/home/Yggx/cxgx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select b.gxmc,a.yggh,a.xh from dagx_ygfp a,dagxda b where a.xh=b.xh and a.yggh='90001' [ RunTime:0.007812s ]
+
+[ 2019-11-06T11:13:20+08:00 ] 192.168.8.66 /aaaxcx/index.php/home/Yggx/cxbm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select bm  from dabmda order by id [ RunTime:0.001954s ]
+
+[ 2019-11-06T11:13:23+08:00 ] 192.168.8.66 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select ygmc,yggh from daygda where bm='人事部' [ RunTime:0.001953s ]
+
+[ 2019-11-06T11:13:25+08:00 ] 192.168.8.66 /aaaxcx/index.php/home/Yggx/cxbm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select bm  from dabmda order by id [ RunTime:0.001953s ]
+
+[ 2019-11-06T11:13:29+08:00 ] 192.168.8.66 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select ygmc,yggh from daygda where bm='车间' [ RunTime:0.001953s ]
+
+[ 2019-11-06T11:23:11+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000976s ]
+
+[ 2019-11-06T11:26:32+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-06 00:00:00' and '2019-11-06 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-06 00:00:00' and '2019-11-06 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-06T11:29:40+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select ch,sb,kh,ysmc,ms,CEILING(sl) as sl,zh,ygmc,gxmc,yggh,zt,CONVERT(nvarchar(30),ISNULL(ceiling(jhsl),0))as jhsl,
+CONVERT(nvarchar(30),ISNULL(ceiling(dj),0))as dj,CONVERT(nvarchar(30),ISNULL(je,0))as je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1911020012' [ RunTime:0.007813s ]
+
+[ 2019-11-06T11:34:41+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Fg/fgjlcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select CONVERT(varchar(100),rq,23)as rq,ygmc,kh,kslx,gxmc,ysmc,ms,sl,jhsl  from scfgdj where rq
+ between '2019-11-06 00:00:00' and '2019-11-06 23:59:59' order by ygmc,kh,rq [ RunTime:0.007812s ]
+
+[ 2019-11-06T11:35:33+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-06 00:00:00' and '2019-11-06 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.005859s ]
+
+[ 2019-11-06T11:57:47+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.001953s ]
+
+[ 2019-11-06T11:58:11+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.001953s ]
+
+[ 2019-11-06T11:58:19+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.002930s ]
+
+[ 2019-11-06T11:58:22+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.001953s ]
+
+[ 2019-11-06T12:03:11+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-06T12:03:16+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.001953s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000000s ]
+
+[ 2019-11-06T12:03:18+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T12:03:35+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T12:04:52+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-06T12:05:34+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.000977s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+
+[ 2019-11-06T12:06:09+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-06T12:09:07+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001953s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+
+[ 2019-11-06T12:10:31+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000000s ]
+
+[ 2019-11-06T12:13:44+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-06 00:00:00' and '2019-11-06 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-06 00:00:00' and '2019-11-06 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-06T13:06:38+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpcx/cxkhtp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select tp from daks_tp where kh='' [ RunTime:0.005859s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpcxController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-06T13:06:38+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpcx/cxkhtp1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select tp2 from daks_tp where kh='' [ RunTime:0.004883s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpcxController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-06T13:07:10+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.001954s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T13:10:34+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select ch,sb,kh,ysmc,ms,CEILING(sl) as sl,zh,ygmc,gxmc,yggh,zt,CONVERT(nvarchar(30),ISNULL(ceiling(jhsl),0))as jhsl,
+CONVERT(nvarchar(30),ISNULL(ceiling(dj),0))as dj,CONVERT(nvarchar(30),ISNULL(je,0))as je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1911020012' [ RunTime:0.000976s ]
+
+[ 2019-11-06T13:12:18+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select ch,sb,kh,ysmc,ms,CEILING(sl) as sl,zh,ygmc,gxmc,yggh,zt,CONVERT(nvarchar(30),ISNULL(ceiling(jhsl),0))as jhsl,
+CONVERT(nvarchar(30),ISNULL(ceiling(dj),0))as dj,CONVERT(nvarchar(30),ISNULL(je,0))as je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1911020011' [ RunTime:0.006836s ]
+
+[ 2019-11-06T13:12:21+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select ch,sb,kh,ysmc,ms,CEILING(sl) as sl,zh,ygmc,gxmc,yggh,zt,CONVERT(nvarchar(30),ISNULL(ceiling(jhsl),0))as jhsl,
+CONVERT(nvarchar(30),ISNULL(ceiling(dj),0))as dj,CONVERT(nvarchar(30),ISNULL(je,0))as je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1911020001' [ RunTime:0.007812s ]
+
+[ 2019-11-06T13:15:02+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/cxbm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select bm  from dabmda order by id [ RunTime:0.000976s ]
+
+[ 2019-11-06T13:15:25+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/cxbm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select bm  from dabmda order by id [ RunTime:0.001953s ]
+
+[ 2019-11-06T13:15:27+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select ygmc,yggh from daygda where bm='人事部' [ RunTime:0.001953s ]
+
+[ 2019-11-06T13:15:27+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select ygmc,yggh from daygda where bm='人事部' [ RunTime:0.001954s ]
+
+[ 2019-11-06T13:15:28+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/cxbm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select bm  from dabmda order by id [ RunTime:0.001954s ]
+
+[ 2019-11-06T13:15:30+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select ygmc,yggh from daygda where bm='车间' [ RunTime:0.001953s ]
+
+[ 2019-11-06T13:15:38+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select ygmc,yggh from daygda where bm='车间' [ RunTime:0.000977s ]
+
+[ 2019-11-06T13:16:34+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select ygmc,yggh from daygda where bm='车间' [ RunTime:0.000977s ]
+
+[ 2019-11-06T13:16:36+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/cxgx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select b.gxmc,a.yggh,a.xh from dagx_ygfp a,dagxda b where a.xh=b.xh and a.yggh='90001' [ RunTime:0.001953s ]
+
+[ 2019-11-06T13:16:37+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select ygmc,yggh from daygda where bm='车间' [ RunTime:0.001953s ]
+
+[ 2019-11-06T13:16:38+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/cxgx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select b.gxmc,a.yggh,a.xh from dagx_ygfp a,dagxda b where a.xh=b.xh and a.yggh='12' [ RunTime:0.007813s ]
+
+[ 2019-11-06T13:17:36+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/addCx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select * from dagxda where xh not in(select xh from dagx_ygfp where yggh='12') [ RunTime:0.011719s ]
+
+[ 2019-11-06T13:17:40+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL:  delete dagx_ygfp where xh='1910301040490802728' and yggh='12' [ RunTime:0.003906s ]
+
+[ 2019-11-06T13:17:42+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Yggx/addCx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select * from dagxda where xh not in(select xh from dagx_ygfp where yggh='12') [ RunTime:0.000976s ]
+
+[ 2019-11-06T13:19:04+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Fg/fgdj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select gpm,zh,kh,ysmc,ms,gxmc,sl,dj,jhsl,(jhsl*dj)as je from scjhdj where tmbh='1911020012' and ygmc<>'' [ RunTime:0.007813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-06T13:19:10+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Fg/fgdj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select gpm,zh,kh,ysmc,ms,gxmc,sl,dj,jhsl,(jhsl*dj)as je from scjhdj where tmbh='1911020001' and ygmc<>'' [ RunTime:0.007813s ]
+
+[ 2019-11-06T13:19:59+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Fg/fgjlcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select CONVERT(varchar(100),rq,23)as rq,ygmc,kh,kslx,gxmc,ysmc,ms,sl,jhsl  from scfgdj where rq
+ between '2019-11-06 00:00:00' and '2019-11-06 23:59:59' order by ygmc,kh,rq [ RunTime:0.000977s ]
+
+[ 2019-11-06T13:20:00+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Fg/fgjlcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select CONVERT(varchar(100),rq,23)as rq,ygmc,kh,kslx,gxmc,ysmc,ms,sl,jhsl  from scfgdj where rq
+ between '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order by ygmc,kh,rq [ RunTime:0.006836s ]
+
+[ 2019-11-06T13:20:01+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Fg/fgjlcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select CONVERT(varchar(100),rq,23)as rq,ygmc,kh,kslx,gxmc,ysmc,ms,sl,jhsl  from scfgdj where rq
+ between '2019-11-05 00:00:00' and '2019-11-05 23:59:59' order by ygmc,kh,rq [ RunTime:0.005860s ]
+
+[ 2019-11-06T13:20:02+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Fg/fgjlcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select CONVERT(varchar(100),rq,23)as rq,ygmc,kh,kslx,gxmc,ysmc,ms,sl,jhsl  from scfgdj where rq
+ between '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order by ygmc,kh,rq [ RunTime:0.000977s ]
+
+[ 2019-11-06T13:20:49+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Fg/fgjlcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select CONVERT(varchar(100),rq,23)as rq,ygmc,kh,kslx,gxmc,ysmc,ms,sl,jhsl  from scfgdj where rq
+ between '2019-11-06 00:00:00' and '2019-11-06 23:59:59' order by ygmc,kh,rq [ RunTime:0.000976s ]
+
+[ 2019-11-06T13:21:03+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhdj/lhdjsm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select top 1 a.* from scjhdj a,daksgx b where tmbh='1911020014' and a.kh=b.kh and a.gxmc=b.gxmc and b.lhdj=1 and a.lhdj=0 order by a.px [ RunTime:0.018555s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LhdjController.class.php 第 26 行.
+
+[ 2019-11-06T13:21:07+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhdj/lhdjsm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select top 1 a.* from scjhdj a,daksgx b where tmbh='1911020018' and a.kh=b.kh and a.gxmc=b.gxmc and b.lhdj=1 and a.lhdj=0 order by a.px [ RunTime:0.019531s ]
+SQL: select * from daksgx where kh='001#' and lhdj=1 [ RunTime:0.004883s ]
+SQL: insert into sclhdj(lhrq,ygmc,yggh,zh,kh,kslx,ms,ysmc,sl,fzm,gpm,gxmc,tmbh,xh,px,sb) 
+        select getdate(),'小飓','90001','18','001#','衬衫','S','黑色','1.0000','1911020018','19110200000035','工序1','1911020018','1911021011226730313','1',''
+          update scjhdj set lhdj=1 where gpm='19110200000035' [ RunTime:0.145508s ]
+
+[ 2019-11-06T13:22:14+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-06 00:00:00' and '2019-11-06 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-06T13:22:15+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-05 00:00:00' and '2019-11-05 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.008789s ]
+
+[ 2019-11-06T13:22:16+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-06 00:00:00' and '2019-11-06 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-06T13:29:29+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000000s ]
+SQL: 
+            SELECT column_name,data_type,column_default,is_nullable
+            FROM   information_schema.tables AS t
+            JOIN   information_schema.columns AS c
+            ON     t.table_catalog = c.table_catalog
+            AND    t.table_schema  = c.table_schema
+            AND    t.table_name    = c.table_name
+            WHERE  t.table_name = 'daygda' [ RunTime:0.002930s ]
+SQL: SELECT * FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_NAME='daygda' [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T13:37:09+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+ERR: 18456:[Microsoft][SQL Server Native Client 10.0][SQL Server]用户 'sa1' 登录失败。18456:[Microsoft][SQL Server Native Client 10.0][SQL Server]用户 'sa1' 登录失败。
+
+[ 2019-11-06T13:40:29+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-06T13:40:32+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-06T13:40:43+08:00 ] ::1 /aaaxcx/home/Clcx/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-06T13:40:46+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+
+[ 2019-11-06T13:41:00+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Sqlsrv11
+
+[ 2019-11-06T13:41:08+08:00 ] ::1 /aaaxcx/home/login/login?dh=001&kh=800001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+

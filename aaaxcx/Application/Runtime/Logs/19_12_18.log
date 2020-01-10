@@ -1,0 +1,921 @@
+[ 2019-12-18T09:49:13+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.063289s ]
+SQL: select * from daygda where  qxkh='0010008' [ RunTime:0.000514s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0010008') [ RunTime:0.002110s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 29 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.015461s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2019-12-18T09:49:19+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000263s ]
+SQL: select * from daygda where  qxkh='0010008' [ RunTime:0.000307s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0010008') [ RunTime:0.000195s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 29 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000220s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2019-12-18T09:49:35+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0018' and zt=1 [ RunTime:0.000270s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-12-18T09:50:09+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0018' and zt=1 [ RunTime:0.000901s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-12-18T09:56:34+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000949s ]
+SQL: select * from daygda where  qxkh='0010800001' [ RunTime:0.001221s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0010800001') [ RunTime:0.006291s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 29 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000219s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2019-12-18T09:56:50+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000313s ]
+SQL: select * from daygda where  qxkh='0010800001' [ RunTime:0.000414s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0010800001') [ RunTime:0.000306s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 29 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000226s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2019-12-18T09:56:54+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000270s ]
+SQL: select * from daygda where  qxkh='0010800001' [ RunTime:0.000365s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0010800001') [ RunTime:0.000252s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 29 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000181s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2019-12-18T09:57:30+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000922s ]
+SQL: select * from daygda where  qxkh='00109527' [ RunTime:0.001321s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='00109527') [ RunTime:0.006110s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 29 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000223s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2019-12-18T10:01:16+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000238s ]
+SQL: select * from daygda where  qxkh='00109527' [ RunTime:0.000383s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='00109527') [ RunTime:0.000208s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 29 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000185s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2019-12-18T10:04:21+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000267s ]
+SQL: select * from daygda where  qxkh='0010800001' [ RunTime:0.000288s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0010800001') [ RunTime:0.000229s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 29 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000205s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2019-12-18T10:04:30+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000281s ]
+SQL: select * from daygda where  qxkh='0010800001' [ RunTime:0.000407s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0010800001') [ RunTime:0.000263s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 29 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000218s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2019-12-18T10:05:56+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='9527' and zt=1 [ RunTime:0.000264s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-12-18T10:06:07+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='9527' and zt=1 [ RunTime:0.000201s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-12-18T10:06:20+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000285s ]
+SQL: select * from daygda where  qxkh='00109527' [ RunTime:0.003871s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='00109527') [ RunTime:0.003832s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 29 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000242s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2019-12-18T10:07:03+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000262s ]
+SQL: select * from daygda where  qxkh='00109527' [ RunTime:0.000370s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='00109527') [ RunTime:0.000226s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 30 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000160s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2019-12-18T10:07:34+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000276s ]
+SQL: select * from daygda where  qxkh='00109527' [ RunTime:0.000358s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='00109527') [ RunTime:0.000296s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 30 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000264s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2019-12-18T10:07:59+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000187s ]
+SQL: select * from daygda where  qxkh='00109527' [ RunTime:0.000285s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='00109527') [ RunTime:0.000128s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 29 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000154s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2019-12-18T10:08:51+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000283s ]
+SQL: select * from daygda where  qxkh='00109527' [ RunTime:0.000375s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='00109527') [ RunTime:0.000251s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 29 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000194s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2019-12-18T10:11:47+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='9527' and zt=1 [ RunTime:0.000230s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-12-18T10:12:27+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='9527' and zt=1 [ RunTime:0.000261s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-12-18T10:14:15+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='9527' and zt=1 [ RunTime:0.000375s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-12-18T10:14:30+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000297s ]
+SQL: select * from daygda where  qxkh='00109527' [ RunTime:0.000280s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='00109527') [ RunTime:0.000167s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 30 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000201s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2019-12-18T10:18:04+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000360s ]
+SQL: select * from daygda where  qxkh='001' [ RunTime:0.000374s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='001') [ RunTime:0.002070s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 30 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000208s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2019-12-18T10:18:11+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000231s ]
+SQL: select * from daygda where  qxkh='001' [ RunTime:0.000359s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='001') [ RunTime:0.000249s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 30 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000150s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2019-12-18T10:18:29+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000309s ]
+SQL: select * from daygda where  qxkh='001' [ RunTime:0.000371s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='001') [ RunTime:0.000235s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 30 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000188s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2019-12-18T10:19:12+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000188s ]
+SQL: select * from daygda where  qxkh='9527' [ RunTime:0.000408s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='001') [ RunTime:0.000162s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 30 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000119s ]
+SQL: select qxmc from dabmda where bm=''and dh='0010'  [ RunTime:0.000101s ]
+
+[ 2019-12-18T10:23:24+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000273s ]
+SQL: select * from daygda where  qxkh='9527' [ RunTime:0.004146s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='9527') [ RunTime:0.003720s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000194s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0010'  [ RunTime:0.000111s ]
+
+[ 2019-12-18T10:24:26+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000253s ]
+SQL: select * from daygda where  qxkh='9527' [ RunTime:0.004149s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='9527') [ RunTime:0.002094s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000228s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0010'  [ RunTime:0.000182s ]
+
+[ 2019-12-18T10:26:39+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Yggx/cxbm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: select bm  from dabmda order by id [ RunTime:0.001509s ]
+
+[ 2019-12-18T10:27:00+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Yggx/cxbm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: select bm  from dabmda order by id [ RunTime:0.000363s ]
+
+[ 2019-12-18T10:28:20+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Yggx/cxbm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: select bm  from dabmda order by id [ RunTime:0.001589s ]
+
+[ 2019-12-18T10:28:22+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: select ygmc,yggh from daygda where bm='车间' [ RunTime:0.005564s ]
+
+[ 2019-12-18T10:34:53+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Yggx/cxbm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: select bm  from dabmda order by id [ RunTime:0.001571s ]
+
+[ 2019-12-18T10:34:55+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: select * from (select ygmc,yggh,row_number() over(order by id)as rowid from daygda where bm='人事部')as a where t.rowid between 1 and 1+9 [ RunTime:0.002499s ]
+ERR: 4104:[Microsoft][SQL Server Native Client 10.0][SQL Server]�޷����ɶ��������ɵı�ʶ�� "t.rowid"��4104:[Microsoft][SQL Server Native Client 10.0][SQL Server]�޷����ɶ��������ɵı�ʶ�� "t.rowid"��16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]���α�δ������
+ [ SQL语句 ] : select * from (select ygmc,yggh,row_number() over(order by id)as rowid from daygda where bm='人事部')as a where t.rowid between 1 and 1+9
+
+[ 2019-12-18T10:34:56+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: select * from (select ygmc,yggh,row_number() over(order by id)as rowid from daygda where bm='人事部')as a where t.rowid between 1 and 1+9 [ RunTime:0.000633s ]
+ERR: 4104:[Microsoft][SQL Server Native Client 10.0][SQL Server]�޷����ɶ��������ɵı�ʶ�� "t.rowid"��4104:[Microsoft][SQL Server Native Client 10.0][SQL Server]�޷����ɶ��������ɵı�ʶ�� "t.rowid"��16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]���α�δ������
+ [ SQL语句 ] : select * from (select ygmc,yggh,row_number() over(order by id)as rowid from daygda where bm='人事部')as a where t.rowid between 1 and 1+9
+
+[ 2019-12-18T10:34:57+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: select * from (select ygmc,yggh,row_number() over(order by id)as rowid from daygda where bm='人事部')as a where t.rowid between 1 and 1+9 [ RunTime:0.000630s ]
+ERR: 4104:[Microsoft][SQL Server Native Client 10.0][SQL Server]�޷����ɶ��������ɵı�ʶ�� "t.rowid"��4104:[Microsoft][SQL Server Native Client 10.0][SQL Server]�޷����ɶ��������ɵı�ʶ�� "t.rowid"��16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]���α�δ������
+ [ SQL语句 ] : select * from (select ygmc,yggh,row_number() over(order by id)as rowid from daygda where bm='人事部')as a where t.rowid between 1 and 1+9
+
+[ 2019-12-18T10:35:08+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: select * from (select ygmc,yggh,row_number() over(order by id)as rowid from daygda where bm='人事部')as a where t.rowid between 1 and 1+9 [ RunTime:0.001096s ]
+ERR: 4104:[Microsoft][SQL Server Native Client 10.0][SQL Server]�޷����ɶ��������ɵı�ʶ�� "t.rowid"��4104:[Microsoft][SQL Server Native Client 10.0][SQL Server]�޷����ɶ��������ɵı�ʶ�� "t.rowid"��16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]���α�δ������
+ [ SQL语句 ] : select * from (select ygmc,yggh,row_number() over(order by id)as rowid from daygda where bm='人事部')as a where t.rowid between 1 and 1+9
+
+[ 2019-12-18T10:37:16+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Yggx/cxbm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: select bm  from dabmda order by id [ RunTime:0.002140s ]
+
+[ 2019-12-18T10:37:19+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: select * from (select ygmc,yggh,row_number() over(order by id)as rowid from daygda where bm='车间')as a where a.rowid between 1 and 1+9 [ RunTime:0.002207s ]
+
+[ 2019-12-18T10:37:46+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Yggx/cxbm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: select bm  from dabmda order by id [ RunTime:0.001703s ]
+
+[ 2019-12-18T10:37:49+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: select * from (select ygmc,yggh,row_number() over(order by id)as rowid from daygda where bm='车间')as a where a.rowid between 1 and 1+11 [ RunTime:0.003317s ]
+
+[ 2019-12-18T10:38:41+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Yggx/cxbm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: select bm  from dabmda order by id [ RunTime:0.001835s ]
+
+[ 2019-12-18T10:38:42+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: select * from (select ygmc,yggh,row_number() over(order by id)as rowid from daygda where bm='车间')as a where a.rowid between 1 and 1+10 [ RunTime:0.002440s ]
+
+[ 2019-12-18T13:03:07+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.206013s ]
+SQL: select * from daygda where  qxkh='9527' [ RunTime:0.031811s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='9527') [ RunTime:0.008929s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.030646s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0010'  [ RunTime:0.000208s ]
+
+[ 2019-12-18T15:47:58+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000844s ]
+SQL: select * from daygda where  qxkh='9527' [ RunTime:0.000355s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='9527') [ RunTime:0.002363s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000403s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0010'  [ RunTime:0.000182s ]
+
+[ 2019-12-18T15:51:45+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000341s ]
+SQL: select * from daygda where  qxkh='9527' [ RunTime:0.000396s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='9527') [ RunTime:0.000253s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000190s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0010'  [ RunTime:0.000180s ]
+
+[ 2019-12-18T15:52:46+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: select ch,sb,kh,ysmc,ms,CEILING(sl) as sl,zh,ygmc,gxmc,yggh,zt,CONVERT(nvarchar(30),ISNULL(ceiling(jhsl),0))as jhsl,
+CONVERT(nvarchar(30),ISNULL(ceiling(dj),0))as dj,CONVERT(nvarchar(30),ISNULL(je,0))as je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912180001' [ RunTime:0.005046s ]
+
+[ 2019-12-18T15:54:07+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: select ch,sb,kh,ysmc,ms,CEILING(sl) as sl,zh,ygmc,gxmc,yggh,zt,CONVERT(nvarchar(30),ISNULL(ceiling(jhsl),0))as jhsl,
+CONVERT(nvarchar(30),ISNULL(ceiling(dj),0))as dj,CONVERT(nvarchar(30),ISNULL(je,0))as je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912180001' [ RunTime:0.000508s ]
+
+[ 2019-12-18T15:54:16+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: select ch,sb,kh,ysmc,ms,CEILING(sl) as sl,zh,ygmc,gxmc,yggh,zt,CONVERT(nvarchar(30),ISNULL(ceiling(jhsl),0))as jhsl,
+CONVERT(nvarchar(30),ISNULL(ceiling(dj),0))as dj,CONVERT(nvarchar(30),ISNULL(je,0))as je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912180119' [ RunTime:0.004648s ]
+
+[ 2019-12-18T15:57:19+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: select ch,sb,kh,ysmc,ms,CEILING(sl) as sl,zh,ygmc,gxmc,yggh,zt,CONVERT(nvarchar(30),ISNULL(ceiling(jhsl),0))as jhsl,
+CONVERT(nvarchar(30),dj,CONVERT(nvarchar(30),ISNULL(je,0))as je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912180119' [ RunTime:0.000795s ]
+ERR: 156:[Microsoft][SQL Server Native Client 10.0][SQL Server]�ؼ��� 'as' �������﷨����16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select ch,sb,kh,ysmc,ms,CEILING(sl) as sl,zh,ygmc,gxmc,yggh,zt,CONVERT(nvarchar(30),ISNULL(ceiling(jhsl),0))as jhsl,
+CONVERT(nvarchar(30),dj,CONVERT(nvarchar(30),ISNULL(je,0))as je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912180119'
+
+[ 2019-12-18T15:57:30+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: select ch,sb,kh,ysmc,ms,CEILING(sl) as sl,zh,ygmc,gxmc,yggh,zt,CONVERT(nvarchar(30),ISNULL(ceiling(jhsl),0))as jhsl,
+CONVERT(nvarchar(30),dj,CONVERT(nvarchar(30),ISNULL(je,0))as je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912180119' [ RunTime:0.000707s ]
+ERR: 156:[Microsoft][SQL Server Native Client 10.0][SQL Server]�ؼ��� 'as' �������﷨����16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select ch,sb,kh,ysmc,ms,CEILING(sl) as sl,zh,ygmc,gxmc,yggh,zt,CONVERT(nvarchar(30),ISNULL(ceiling(jhsl),0))as jhsl,
+CONVERT(nvarchar(30),dj,CONVERT(nvarchar(30),ISNULL(je,0))as je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912180119'
+
+[ 2019-12-18T15:57:45+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: select ch,sb,kh,ysmc,ms,CEILING(sl) as sl,zh,ygmc,gxmc,yggh,zt,CONVERT(nvarchar(30),ISNULL(ceiling(jhsl),0))as jhsl,
+CONVERT(nvarchar(30),dj,CONVERT(nvarchar(30),ISNULL(je,0))as je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912180120' [ RunTime:0.001219s ]
+ERR: 156:[Microsoft][SQL Server Native Client 10.0][SQL Server]�ؼ��� 'as' �������﷨����16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select ch,sb,kh,ysmc,ms,CEILING(sl) as sl,zh,ygmc,gxmc,yggh,zt,CONVERT(nvarchar(30),ISNULL(ceiling(jhsl),0))as jhsl,
+CONVERT(nvarchar(30),dj,CONVERT(nvarchar(30),ISNULL(je,0))as je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912180120'
+
+[ 2019-12-18T16:01:53+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='8000' and zt=1 [ RunTime:0.000311s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 25 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-12-18T16:02:05+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='8000' and zt=1 [ RunTime:0.000297s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 24 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 25 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-12-18T16:10:09+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000993s ]
+SQL: select * from daygda where  qxkh='9527' [ RunTime:0.007702s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='9527') [ RunTime:0.002783s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000368s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0010'  [ RunTime:0.000176s ]
+
+[ 2019-12-18T16:10:25+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: select ch,sb,kh,ysmc,ms,CEILING(sl) as sl,zh,ygmc,gxmc,yggh,zt,CONVERT(nvarchar(30),ISNULL(ceiling(jhsl),0))as jhsl,
+CONVERT(nvarchar(30),ISNULL(ceiling(dj),0))as dj,CONVERT(nvarchar(30),ISNULL(je,0))as je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912180119' [ RunTime:0.006152s ]
+

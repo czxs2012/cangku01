@@ -1,0 +1,179 @@
+[ 2019-11-11T09:12:36+08:00 ] ::1 /aaaxcx/home/Gpsm/cxjhsx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002929s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.044922s ]
+
+[ 2019-11-11T09:15:04+08:00 ] ::1 /aaaxcx/home/Gpsm/cxjhsx?yggh=90001&tmbh=1911090027
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000976s ]
+
+[ 2019-11-11T09:15:30+08:00 ] ::1 /aaaxcx/home/Gpsm/cxjhgx?yggh=90001&tmbh=1911090027
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1911090027' and a.yggh='' and qhqr=0)  [ RunTime:0.031250s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,dhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1911090027'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.006836s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]¡–√˚ 'dhrq' Œﬁ–ß°£16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]∏√”Œ±ÍŒ¥…˘√˜°£
+ [ SQLËØ≠Âè• ] : select ch,sb,zh,kh,ysmc,ms,gxmc,dhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1911090027'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-11T09:15:48+08:00 ] ::1 /aaaxcx/home/Gpsm/cxjhgx?yggh=90001&tmbh=1911090027
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1911090027' and a.yggh='' and qhqr=0)  [ RunTime:0.007812s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,dhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1911090027'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.002930s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]¡–√˚ 'dhrq' Œﬁ–ß°£16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]∏√”Œ±ÍŒ¥…˘√˜°£
+ [ SQLËØ≠Âè• ] : select ch,sb,zh,kh,ysmc,ms,gxmc,dhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1911090027'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-11T09:16:23+08:00 ] ::1 /aaaxcx/home/Gpsm/cxjhgx?yggh=90001&tmbh=1911090027
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1911090027' and a.yggh='' and qhqr=0)  [ RunTime:0.002930s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,dhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1911090027'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.002930s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]¡–√˚ 'dhrq' Œﬁ–ß°£16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]∏√”Œ±ÍŒ¥…˘√˜°£
+ [ SQLËØ≠Âè• ] : select ch,sb,zh,kh,ysmc,ms,gxmc,dhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1911090027'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-11T09:16:52+08:00 ] ::1 /aaaxcx/home/Gpsm/cxjhgx?yggh=90001&tmbh=1911090027
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1911090027' and a.yggh='' and qhqr=0)  [ RunTime:0.003907s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,dhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1911090027'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.002930s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]¡–√˚ 'dhrq' Œﬁ–ß°£16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]∏√”Œ±ÍŒ¥…˘√˜°£
+ [ SQLËØ≠Âè• ] : select ch,sb,zh,kh,ysmc,ms,gxmc,dhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1911090027'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-11T09:18:21+08:00 ] ::1 /aaaxcx/home/Gpsm/cxjhgx?yggh=90001&tmbh=1911090027
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1911090027' and a.yggh='' and qhqr=0)  [ RunTime:0.001953s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1911090027'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.018555s ]
+
+[ 2019-11-11T09:29:51+08:00 ] ::1 /aaaxcx/home/Gpsm/cxjhgx?yggh=90001&tmbh=1911090027
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1911090027' and a.yggh='' and qhqr=0)  [ RunTime:0.001954s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1911090027'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.001953s ]
+
+[ 2019-11-11T11:50:14+08:00 ] ::1 /aaaxcx/home/Gpsm/cxjhgx?yggh=90001&tmbh=1911090027
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1911090027' and a.yggh='' and qhqr=0)  [ RunTime:0.001953s ]
+
+[ 2019-11-11T11:50:15+08:00 ] ::1 /aaaxcx/home/Gpsm/cxjhsx?yggh=90001&tmbh=1911090027
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.002930s ]
+
+[ 2019-11-11T11:50:16+08:00 ] ::1 /aaaxcx/home/Gpsm/cxjhsx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.006836s ]
+
+[ 2019-11-11T17:05:33+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php Á¨¨ 127 Ë°å.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php Á¨¨ 129 Ë°å.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php Á¨¨ 130 Ë°å.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='80004' [ RunTime:0.001954s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='80004') [ RunTime:0.004883s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php Á¨¨ 28 Ë°å.
+SQL: select bm from dabmda where bm='' [ RunTime:0.002930s ]
+SQL: insert into dabmda(bm) select '' [ RunTime:0.002930s ]
+SQL: select qxmc from dabmda where bm=''and dh='001'  [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002930s ]
+
+[ 2019-11-11T17:05:37+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php Á¨¨ 127 Ë°å.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php Á¨¨ 129 Ë°å.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php Á¨¨ 130 Ë°å.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800004' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='800004') [ RunTime:0.005860s ]
+SQL: select bm from dabmda where bm='ËΩ¶Èó¥' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='ËΩ¶Èó¥'and dh='001'  [ RunTime:0.000977s ]
+

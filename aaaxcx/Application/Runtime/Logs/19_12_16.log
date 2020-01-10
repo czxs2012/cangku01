@@ -1,0 +1,16 @@
+[ 2019-12-16T16:41:08+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.039697s ]
+SQL: select * from daygda where  qxkh='0010008' [ RunTime:0.030880s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0010008') [ RunTime:0.005837s ]
+SQL: select bm from dabmda where bm='(女装)车间' [ RunTime:0.009233s ]
+SQL: select qxmc from dabmda where bm='(女装)车间'and dh='0010'  [ RunTime:0.000206s ]
+

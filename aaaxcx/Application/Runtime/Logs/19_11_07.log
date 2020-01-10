@@ -1,0 +1,391 @@
+[ 2019-11-07T13:53:04+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php Á¨¨ 127 Ë°å.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php Á¨¨ 129 Ë°å.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php Á¨¨ 130 Ë°å.
+SQL: select * from user where dh='001'  [ RunTime:0.023437s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.007812s ]
+
+[ 2019-11-07T13:53:10+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='Â∞èÈ£ì' and jhrq  between '2019-11-07 00:00:00' and '2019-11-07 23:59:59' order by jhrq,kh [ RunTime:0.011718s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='Â∞èÈ£ì' and cast(jhrq as datetime)  between '2019-11-07 00:00:00' and '2019-11-07 23:59:59'  [ RunTime:0.010742s ]
+
+[ 2019-11-07T13:53:12+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='Â∞èÈ£ì' and jhrq  between '2019-11-06 00:00:00' and '2019-11-06 23:59:59' order by jhrq,kh [ RunTime:0.010742s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='Â∞èÈ£ì' and cast(jhrq as datetime)  between '2019-11-06 00:00:00' and '2019-11-06 23:59:59'  [ RunTime:0.010742s ]
+
+[ 2019-11-07T13:53:12+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='Â∞èÈ£ì' and jhrq  between '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order by jhrq,kh [ RunTime:0.009766s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='Â∞èÈ£ì' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-30 23:59:59'  [ RunTime:0.008789s ]
+
+[ 2019-11-07T13:53:13+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='Â∞èÈ£ì' and jhrq  between '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order by jhrq,kh [ RunTime:0.010742s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='Â∞èÈ£ì' and cast(jhrq as datetime)  between '2019-10-01 00:00:00' and '2019-10-31 23:59:59'  [ RunTime:0.009766s ]
+
+[ 2019-11-07T13:53:18+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='Â∞èÈ£ì' and jhrq  between '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='Â∞èÈ£ì' and cast(jhrq as datetime)  between '2019-10-01 00:00:00' and '2019-10-31 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-07T13:53:19+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='Â∞èÈ£ì' and jhrq  between '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='Â∞èÈ£ì' and cast(jhrq as datetime)  between '2019-10-01 00:00:00' and '2019-10-31 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-07T13:53:19+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='Â∞èÈ£ì' and jhrq  between '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='Â∞èÈ£ì' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-30 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-07T13:53:20+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='Â∞èÈ£ì' and jhrq  between '2019-11-06 00:00:00' and '2019-11-06 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='Â∞èÈ£ì' and cast(jhrq as datetime)  between '2019-11-06 00:00:00' and '2019-11-06 23:59:59'  [ RunTime:0.001953s ]
+
+[ 2019-11-07T13:53:20+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='Â∞èÈ£ì' and jhrq  between '2019-11-07 00:00:00' and '2019-11-07 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='Â∞èÈ£ì' and cast(jhrq as datetime)  between '2019-11-07 00:00:00' and '2019-11-07 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-07T14:13:16+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php Á¨¨ 127 Ë°å.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php Á¨¨ 129 Ë°å.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php Á¨¨ 130 Ë°å.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+
+[ 2019-11-07T14:13:19+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='Â∞èÈ£ì' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.009765s ]
+
+[ 2019-11-07T14:13:33+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1910300001' [ RunTime:0.006836s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.005859s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90001') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1910300001' order by px
+        [ RunTime:0.012695s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 46 Ë°å.
+SQL: select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1910300001' order  by px [ RunTime:0.001954s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]¡–√˚ 'jhqr' Œﬁ–ß°£207:[Microsoft][SQL Server Native Client 10.0][SQL Server]¡–√˚ 'yydh_wflx' Œﬁ–ß°£16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]∏√”Œ±ÍŒ¥…˘√˜°£
+ [ SQLËØ≠Âè• ] : select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1910300001' order  by px
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='' and tmbh='1910300001' [ RunTime:0.004882s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 80 Ë°å.
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc  [ RunTime:0.003907s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]‘⁄”¶ π”√Ãıº˛µƒ…œœ¬Œƒ(‘⁄ 'and' ∏ΩΩ¸)÷–÷∏∂®¡À∑«≤º∂˚¿‡–Õµƒ±Ì¥Ô Ω°£16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]’˝‘⁄÷±Ω”÷¥–– SQL£ªŒﬁ”Œ±Í°£
+ [ SQLËØ≠Âè• ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='' [ RunTime:0.005859s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 94 Ë°å.
+SQL: update scjhdj set jhsl='',je=''*dj,ygmc='Â∞èÈ£ì',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm='' [ RunTime:0.006836s ]
+ERR: 8114:[Microsoft][SQL Server Native Client 10.0][SQL Server]¥” ˝æ›¿‡–Õ varchar ◊™ªªŒ™ numeric  ±≥ˆ¥Ì°£
+ [ SQLËØ≠Âè• ] : update scjhdj set jhsl='',je=''*dj,ygmc='Â∞èÈ£ì',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm=''
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-07T14:15:38+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1910300001' [ RunTime:0.000000s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000977s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90001') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1910300001' order by px
+        [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 46 Ë°å.
+SQL: select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1910300001' order  by px [ RunTime:0.001953s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]¡–√˚ 'jhqr' Œﬁ–ß°£207:[Microsoft][SQL Server Native Client 10.0][SQL Server]¡–√˚ 'yydh_wflx' Œﬁ–ß°£16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]∏√”Œ±ÍŒ¥…˘√˜°£
+ [ SQLËØ≠Âè• ] : select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1910300001' order  by px
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='' and tmbh='1910300001' [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 80 Ë°å.
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc  [ RunTime:0.000977s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]‘⁄”¶ π”√Ãıº˛µƒ…œœ¬Œƒ(‘⁄ 'and' ∏ΩΩ¸)÷–÷∏∂®¡À∑«≤º∂˚¿‡–Õµƒ±Ì¥Ô Ω°£16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]’˝‘⁄÷±Ω”÷¥–– SQL£ªŒﬁ”Œ±Í°£
+ [ SQLËØ≠Âè• ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='' [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 94 Ë°å.
+SQL: update scjhdj set jhsl='',je=''*dj,ygmc='Â∞èÈ£ì',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm='' [ RunTime:0.000977s ]
+ERR: 8114:[Microsoft][SQL Server Native Client 10.0][SQL Server]¥” ˝æ›¿‡–Õ varchar ◊™ªªŒ™ numeric  ±≥ˆ¥Ì°£
+ [ SQLËØ≠Âè• ] : update scjhdj set jhsl='',je=''*dj,ygmc='Â∞èÈ£ì',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm=''
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-07T14:16:57+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1911020002' [ RunTime:0.006836s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000000s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90001') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1911020002' order by px
+        [ RunTime:0.012695s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 46 Ë°å.
+SQL: select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1911020002' order  by px [ RunTime:0.000976s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]¡–√˚ 'jhqr' Œﬁ–ß°£207:[Microsoft][SQL Server Native Client 10.0][SQL Server]¡–√˚ 'yydh_wflx' Œﬁ–ß°£16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]∏√”Œ±ÍŒ¥…˘√˜°£
+ [ SQLËØ≠Âè• ] : select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1911020002' order  by px
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='' and tmbh='1911020002' [ RunTime:0.004883s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 80 Ë°å.
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc  [ RunTime:0.000976s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]‘⁄”¶ π”√Ãıº˛µƒ…œœ¬Œƒ(‘⁄ 'and' ∏ΩΩ¸)÷–÷∏∂®¡À∑«≤º∂˚¿‡–Õµƒ±Ì¥Ô Ω°£16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]’˝‘⁄÷±Ω”÷¥–– SQL£ªŒﬁ”Œ±Í°£
+ [ SQLËØ≠Âè• ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='' [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 94 Ë°å.
+SQL: update scjhdj set jhsl='',je=''*dj,ygmc='Â∞èÈ£ì',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm='' [ RunTime:0.000977s ]
+ERR: 8114:[Microsoft][SQL Server Native Client 10.0][SQL Server]¥” ˝æ›¿‡–Õ varchar ◊™ªªŒ™ numeric  ±≥ˆ¥Ì°£
+ [ SQLËØ≠Âè• ] : update scjhdj set jhsl='',je=''*dj,ygmc='Â∞èÈ£ì',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm=''
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-07T14:17:09+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1911020002' [ RunTime:0.001953s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000977s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90001') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1911020002' order by px
+        [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 46 Ë°å.
+SQL: select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1911020002' order  by px [ RunTime:0.001953s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]¡–√˚ 'jhqr' Œﬁ–ß°£207:[Microsoft][SQL Server Native Client 10.0][SQL Server]¡–√˚ 'yydh_wflx' Œﬁ–ß°£16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]∏√”Œ±ÍŒ¥…˘√˜°£
+ [ SQLËØ≠Âè• ] : select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1911020002' order  by px
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='' and tmbh='1911020002' [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 80 Ë°å.
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc  [ RunTime:0.000977s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]‘⁄”¶ π”√Ãıº˛µƒ…œœ¬Œƒ(‘⁄ 'and' ∏ΩΩ¸)÷–÷∏∂®¡À∑«≤º∂˚¿‡–Õµƒ±Ì¥Ô Ω°£16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]’˝‘⁄÷±Ω”÷¥–– SQL£ªŒﬁ”Œ±Í°£
+ [ SQLËØ≠Âè• ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='' [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 94 Ë°å.
+SQL: update scjhdj set jhsl='',je=''*dj,ygmc='Â∞èÈ£ì',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm='' [ RunTime:0.001953s ]
+ERR: 8114:[Microsoft][SQL Server Native Client 10.0][SQL Server]¥” ˝æ›¿‡–Õ varchar ◊™ªªŒ™ numeric  ±≥ˆ¥Ì°£
+ [ SQLËØ≠Âè• ] : update scjhdj set jhsl='',je=''*dj,ygmc='Â∞èÈ£ì',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm=''
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-07T14:18:01+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1911070001' [ RunTime:0.005860s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000977s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90001') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1911070001' order by px
+        [ RunTime:0.012695s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 46 Ë°å.
+SQL: select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1911070001' order  by px [ RunTime:0.000977s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]¡–√˚ 'jhqr' Œﬁ–ß°£207:[Microsoft][SQL Server Native Client 10.0][SQL Server]¡–√˚ 'yydh_wflx' Œﬁ–ß°£16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]∏√”Œ±ÍŒ¥…˘√˜°£
+ [ SQLËØ≠Âè• ] : select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1911070001' order  by px
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='' and tmbh='1911070001' [ RunTime:0.004883s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 80 Ë°å.
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc  [ RunTime:0.000976s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]‘⁄”¶ π”√Ãıº˛µƒ…œœ¬Œƒ(‘⁄ 'and' ∏ΩΩ¸)÷–÷∏∂®¡À∑«≤º∂˚¿‡–Õµƒ±Ì¥Ô Ω°£16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]’˝‘⁄÷±Ω”÷¥–– SQL£ªŒﬁ”Œ±Í°£
+ [ SQLËØ≠Âè• ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='' [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 94 Ë°å.
+SQL: update scjhdj set jhsl='',je=''*dj,ygmc='Â∞èÈ£ì',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm='' [ RunTime:0.000000s ]
+ERR: 8114:[Microsoft][SQL Server Native Client 10.0][SQL Server]¥” ˝æ›¿‡–Õ varchar ◊™ªªŒ™ numeric  ±≥ˆ¥Ì°£
+ [ SQLËØ≠Âè• ] : update scjhdj set jhsl='',je=''*dj,ygmc='Â∞èÈ£ì',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm=''
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-07T14:23:33+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1911070001' [ RunTime:0.000977s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000976s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90001') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1911070001' order by px
+        [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 46 Ë°å.
+SQL: select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1911070001' order  by px [ RunTime:0.000976s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]¡–√˚ 'jhqr' Œﬁ–ß°£207:[Microsoft][SQL Server Native Client 10.0][SQL Server]¡–√˚ 'yydh_wflx' Œﬁ–ß°£16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]∏√”Œ±ÍŒ¥…˘√˜°£
+ [ SQLËØ≠Âè• ] : select top 1 gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wflx='' 
+           and tmbh='1911070001' order  by px
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='' and tmbh='1911070001' [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 80 Ë°å.
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc  [ RunTime:0.000977s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]‘⁄”¶ π”√Ãıº˛µƒ…œœ¬Œƒ(‘⁄ 'and' ∏ΩΩ¸)÷–÷∏∂®¡À∑«≤º∂˚¿‡–Õµƒ±Ì¥Ô Ω°£16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]’˝‘⁄÷±Ω”÷¥–– SQL£ªŒﬁ”Œ±Í°£
+ [ SQLËØ≠Âè• ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='' [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\GpsmController.class.php Á¨¨ 94 Ë°å.
+SQL: update scjhdj set jhsl='',je=''*dj,ygmc='Â∞èÈ£ì',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm='' [ RunTime:0.000976s ]
+ERR: 8114:[Microsoft][SQL Server Native Client 10.0][SQL Server]¥” ˝æ›¿‡–Õ varchar ◊™ªªŒ™ numeric  ±≥ˆ¥Ì°£
+ [ SQLËØ≠Âè• ] : update scjhdj set jhsl='',je=''*dj,ygmc='Â∞èÈ£ì',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm=''
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-07T14:27:16+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002929s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1911070001' [ RunTime:0.000976s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000977s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90001') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1911070001' order by px
+        [ RunTime:0.000977s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1911070001' and px<(select px from scjhdj where jhrq='' and gpm='19110700000002') order by px desc [ RunTime:0.001953s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]¡–√˚ 'jhqr' Œﬁ–ß°£16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]∏√”Œ±ÍŒ¥…˘√˜°£
+ [ SQLËØ≠Âè• ] : select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1911070001' and px<(select px from scjhdj where jhrq='' and gpm='19110700000002') order by px desc
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19110700000002' and tmbh='1911070001' [ RunTime:0.005859s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19110700000002') order by px desc  [ RunTime:0.000977s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]‘⁄”¶ π”√Ãıº˛µƒ…œœ¬Œƒ(‘⁄ 'and' ∏ΩΩ¸)÷–÷∏∂®¡À∑«≤º∂˚¿‡–Õµƒ±Ì¥Ô Ω°£16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]’˝‘⁄÷±Ω”÷¥–– SQL£ªŒﬁ”Œ±Í°£
+ [ SQLËØ≠Âè• ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19110700000002') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='19110700000002' [ RunTime:0.004883s ]
+SQL: update scjhdj set jhsl='320.0000',je='320.0000'*dj,ygmc='Â∞èÈ£ì',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19110700000002' [ RunTime:0.008789s ]
+

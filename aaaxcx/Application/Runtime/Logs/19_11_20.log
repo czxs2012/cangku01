@@ -1,0 +1,1455 @@
+[ 2019-11-20T10:44:34+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.002930s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:44:35+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:44:41+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:26+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:42+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:44+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:45+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:46+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:47+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:48+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.001953s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:49+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:50+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:51+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:52+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:53+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:54+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:55+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:56+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:57+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:58+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:45:59+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.001953s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:46:00+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:46:01+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:46:02+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:46:03+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:46:04+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:46:05+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:46:07+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:46:08+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:46:09+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:46:10+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:46:11+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:46:12+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:46:13+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.002930s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:46:14+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:46:15+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T10:46:16+08:00 ] 192.168.8.216 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='undefined' and zt=1 [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:49:21+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:49:25+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:49:29+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:49:31+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:49:33+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:49:35+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:49:37+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:49:46+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:50:41+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:50:51+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.001953s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:51:17+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.001953s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:51:20+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:51:23+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:51:26+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.001954s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:51:49+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:52:34+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='003' and zt=1 [ RunTime:0.000977s ]
+ERR: 87:[Microsoft][SQL Server Native Client 10.0]SQL Server 网络接口: 连接字符串无效 [87]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期87:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-20T11:54:30+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:54:30+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='003' and zt=1 [ RunTime:0.000977s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-20T11:54:33+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:54:39+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.001954s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T11:54:57+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='003' and zt=1 [ RunTime:0.000000s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-20T11:55:17+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T15:10:47+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000977s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T15:10:51+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+
+[ 2019-11-20T15:11:16+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001' and zt=1 [ RunTime:0.000976s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 19 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 20 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 23 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 238 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 239 行.
+NOTIC: [8] Undefined offset: 3 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 240 行.
+NOTIC: [8] Undefined offset: 4 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 241 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 242 行.
+NOTIC: [8] Undefined offset: 6 D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 243 行.
+ERR: 没有定义数据库配置
+

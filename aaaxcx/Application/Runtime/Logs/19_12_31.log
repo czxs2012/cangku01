@@ -1,0 +1,196 @@
+[ 2019-12-31T14:01:13+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.001134s ]
+SQL: select * from daygda where  qxkh='0012001' [ RunTime:0.008226s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012001') [ RunTime:0.002061s ]
+SQL: select bm from dabmda where bm='固定' [ RunTime:0.000257s ]
+SQL: select qxmc from dabmda where bm='固定'and dh='0012'  [ RunTime:0.000195s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-31T14:01:45+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.000247s ]
+SQL: select * from daygda where  qxkh='0012005' [ RunTime:0.005799s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012005') [ RunTime:0.002073s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000241s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0012'  [ RunTime:0.000171s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-31T14:01:47+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='55' and yggh='90956' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000490s ]
+
+[ 2019-12-31T14:01:59+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000413s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90956' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912310040'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.019326s ]
+SQL: select dj,ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912310040'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90956' and a.xh=b.xh) order by qhqr,px [ RunTime:0.032469s ]
+
+[ 2019-12-31T14:05:13+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.000249s ]
+SQL: select * from daygda where  qxkh='0012005' [ RunTime:0.000364s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012005') [ RunTime:0.000217s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000205s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0012'  [ RunTime:0.000137s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-31T14:05:18+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='55' and yggh='90956' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000961s ]
+
+[ 2019-12-31T14:05:20+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000599s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90956' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912310040'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.022702s ]
+SQL: select dj,ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912310040'
+         and yggh='90956' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90956' and a.xh=b.xh) order by qhqr,px [ RunTime:0.013638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012507s ]
+
+[ 2019-12-31T14:05:27+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000810s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90956' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912310040'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.017171s ]
+SQL: select dj,ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912310040'
+         and yggh='90956' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90956' and a.xh=b.xh) order by qhqr,px [ RunTime:0.012789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2019-12-31T14:06:15+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.000282s ]
+SQL: select * from daygda where  qxkh='0012005' [ RunTime:0.009088s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012005') [ RunTime:0.006936s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000261s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0012'  [ RunTime:0.000194s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-31T14:06:17+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='55' and yggh='90956' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.039529s ]
+
+[ 2019-12-31T14:06:22+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.003326s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90956' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912310040'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.371611s ]
+SQL: select dj,ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1912310040'
+         and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90956' and a.xh=b.xh) order by qhqr,px [ RunTime:0.035649s ]
+
+[ 2019-12-31T19:36:35+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.001058s ]
+SQL: select * from daygda where  qxkh='0012003' [ RunTime:0.004561s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012003') [ RunTime:0.002081s ]
+SQL: select bm from dabmda where bm='固定' [ RunTime:0.000474s ]
+SQL: select qxmc from dabmda where bm='固定'and dh='0012'  [ RunTime:0.000153s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-31T19:36:43+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='0012003' order by px [ RunTime:0.018587s ]
+
+[ 2019-12-31T19:36:55+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912310040' order by px [ RunTime:0.018948s ]
+

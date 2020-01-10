@@ -1,0 +1,1557 @@
+[ 2019-12-26T14:21:07+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.001014s ]
+SQL: select * from daygda where  qxkh='0012001' [ RunTime:0.004452s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012001') [ RunTime:0.002301s ]
+SQL: select bm from dabmda where bm='固定' [ RunTime:0.000486s ]
+SQL: select qxmc from dabmda where bm='固定'and dh='0012'  [ RunTime:0.000193s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-26T14:21:10+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90097' and ygmc='小伟' and jhrq  between '2019-12-26 00:00:00' and '2019-12-26 23:59:59' order by jhrq,kh [ RunTime:0.007421s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90097' and ygmc='小伟' and cast(jhrq as datetime)  between '2019-12-26 00:00:00' and '2019-12-26 23:59:59'  [ RunTime:0.045817s ]
+
+[ 2019-12-26T14:21:31+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' [ RunTime:0.022420s ]
+
+[ 2019-12-26T14:21:55+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.021683s ]
+
+[ 2019-12-26T14:21:59+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.019508s ]
+
+[ 2019-12-26T14:22:03+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.002526s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90097' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912240050'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.050762s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912240050' [ RunTime:0.016539s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.001852s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90097') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912240050' order by px
+        [ RunTime:0.022488s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and qhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912240050' and px<(select px from scjhdj where jhrq='' and gpm='19122400000365') order by px desc [ RunTime:0.018799s ]
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19122400000365' and tmbh='1912240050' [ RunTime:0.002725s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000365') order by px desc  [ RunTime:0.012387s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]��Ӧʹ��������������(�� 'and' ����)��ָ���˷ǲ������͵ı���ʽ��16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000365') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='19122400000365' [ RunTime:0.002495s ]
+SQL: update scjhdj set jhsl='250.0000',je='250.0000'*dj,ygmc='小伟',yggh='90097',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19122400000365' [ RunTime:0.002853s ]
+
+[ 2019-12-26T14:22:14+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.019293s ]
+
+[ 2019-12-26T14:22:47+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: update scjhdj set jhsl='260',je=dj*260,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000365') and px >=(select  px from scjhdj where gpm='19122400000365') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000365') and ygmc<>'' [ RunTime:0.028744s ]
+
+[ 2019-12-26T14:30:12+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: update scjhdj set jhsl=260,je=dj*260,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000365') and px >=(select  px from scjhdj where gpm='19122400000365') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000365') and ygmc<>'' [ RunTime:0.026331s ]
+
+[ 2019-12-26T14:30:13+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.018218s ]
+
+[ 2019-12-26T14:37:04+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000708s ]
+
+[ 2019-12-26T14:37:15+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000935s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90097' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912240050'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.024365s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912240050' [ RunTime:0.013530s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000262s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90097') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912240050' order by px
+        [ RunTime:0.014267s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and qhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912240050' and px<(select px from scjhdj where jhrq='' and gpm='19122400000366') order by px desc [ RunTime:0.019334s ]
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19122400000366' and tmbh='1912240050' [ RunTime:0.002602s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000366') order by px desc  [ RunTime:0.000366s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]��Ӧʹ��������������(�� 'and' ����)��ָ���˷ǲ������͵ı���ʽ��16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000366') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='19122400000366' [ RunTime:0.002253s ]
+SQL: update scjhdj set jhsl=250.0000,je=250.0000*dj,ygmc='小伟',yggh='90097',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19122400000366' [ RunTime:0.004505s ]
+
+[ 2019-12-26T15:19:25+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.022631s ]
+
+[ 2019-12-26T15:22:53+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.013884s ]
+
+[ 2019-12-26T15:23:08+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgccs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: select * from scjhdj where tmbh in (select tmbh from scjhdj where gpm='19122400000365')
+           and ch in (select ch from scjhdj where gpm='19122400000365') and zt=0 [ RunTime:0.015923s ]
+SQL: update scjhdj set jhsl=266.0000,sl=266.0000,je=266.0000*dj,yc=1,ycrq='2019-12-26 15:23:08',ycccsl=269.0000 where zt=0 and jhrq<>'' and fzm=(select fzm from scjhdj where gpm='19122400000365') [ RunTime:0.009876s ]
+
+[ 2019-12-26T15:23:08+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.015195s ]
+
+[ 2019-12-26T15:35:13+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.015686s ]
+
+[ 2019-12-26T15:35:16+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.002502s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90097' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912240050'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.055860s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912240050' [ RunTime:0.016247s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.001622s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90097') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912240050' order by px
+        [ RunTime:0.021906s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and qhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912240050' and px<(select px from scjhdj where jhrq='' and gpm='19122400000367') order by px desc [ RunTime:0.019906s ]
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19122400000367' and tmbh='1912240050' [ RunTime:0.003400s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000367') order by px desc  [ RunTime:0.000358s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]��Ӧʹ��������������(�� 'and' ����)��ָ���˷ǲ������͵ı���ʽ��16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000367') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='19122400000367' [ RunTime:0.002060s ]
+SQL: update scjhdj set jhsl=269.0000,je=269.0000*dj,ygmc='小伟',yggh='90097',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19122400000367' [ RunTime:0.089474s ]
+
+[ 2019-12-26T15:35:52+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.020355s ]
+
+[ 2019-12-26T15:36:35+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgccs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: select * from scjhdj where tmbh in (select tmbh from scjhdj where gpm='19122400000365')
+           and ch in (select ch from scjhdj where gpm='19122400000365') and zt=0 [ RunTime:0.002474s ]
+SQL: update scjhdj set jhsl=268.0000,sl=268.0000,je=268.0000*dj,yc=1,ycrq='2019-12-26 15:36:35',ycccsl=269.0000 where zt=0 and jhrq<>'' and fzm=(select fzm from scjhdj where gpm='19122400000365') [ RunTime:0.008152s ]
+
+[ 2019-12-26T15:36:36+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.018470s ]
+
+[ 2019-12-26T15:45:58+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.017636s ]
+
+[ 2019-12-26T15:47:22+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.014059s ]
+
+[ 2019-12-26T15:47:49+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgccs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: select * from scjhdj where tmbh in (select tmbh from scjhdj where gpm='19122400000368')
+           and ch in (select ch from scjhdj where gpm='19122400000368') and zt=0 [ RunTime:0.014950s ]
+SQL: update scjhdj set jhsl=260.0000,sl=260.0000,je=260.0000*dj,yc=1,ycrq='2019-12-26 15:47:48',ycccsl=280.0000 where zt=0 and jhrq<>'' and fzm=(select fzm from scjhdj where gpm='19122400000368') [ RunTime:0.010142s ]
+
+[ 2019-12-26T15:49:31+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.016897s ]
+
+[ 2019-12-26T15:49:35+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.001334s ]
+
+[ 2019-12-26T15:49:37+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000504s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90097' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912240050'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.021699s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912240050' [ RunTime:0.013981s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000241s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90097') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912240050' order by px
+        [ RunTime:0.014387s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and qhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912240050' and px<(select px from scjhdj where jhrq='' and gpm='19122400000370') order by px desc [ RunTime:0.018613s ]
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19122400000370' and tmbh='1912240050' [ RunTime:0.002636s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000370') order by px desc  [ RunTime:0.000401s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]��Ӧʹ��������������(�� 'and' ����)��ָ���˷ǲ������͵ı���ʽ��16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000370') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='19122400000370' [ RunTime:0.002439s ]
+SQL: update scjhdj set jhsl=280.0000,je=280.0000*dj,ygmc='小伟',yggh='90097',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19122400000370' [ RunTime:0.003041s ]
+
+[ 2019-12-26T15:52:40+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.017338s ]
+
+[ 2019-12-26T15:52:57+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgccs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: select * from scjhdj where tmbh in (select tmbh from scjhdj where gpm='19122400000370')
+           and ch in (select ch from scjhdj where gpm='19122400000370') and zt=0 [ RunTime:0.014518s ]
+SQL: update scjhdj set jhsl=275,sl=275,je=275*dj,yc=1,ycrq='2019-12-26 15:52:57',ycccsl=280.0000 where zt=0 and jhrq<>'' and fzm=(select fzm from scjhdj where gpm='19122400000370') [ RunTime:0.008309s ]
+
+[ 2019-12-26T15:52:57+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.018695s ]
+
+[ 2019-12-26T15:53:05+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000393s ]
+
+[ 2019-12-26T15:59:34+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000289s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90097' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912240050'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.022352s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912240050' [ RunTime:0.013702s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000240s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90097') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912240050' order by px
+        [ RunTime:0.014345s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and qhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912240050' and px<(select px from scjhdj where jhrq='' and gpm='19122400000372') order by px desc [ RunTime:0.018507s ]
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19122400000372' and tmbh='1912240050' [ RunTime:0.002531s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs='' and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000372') and tmbh='1912240050' and 
+            px<(select px from scjhdj where jhrq='' and gpm='19122400000372' ) order by px desc  [ RunTime:0.010413s ]
+SQL: update scjhdj set jhsl=275.0000,je=275.0000*dj,ygmc='小伟',yggh='90097',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19122400000372' [ RunTime:0.003109s ]
+
+[ 2019-12-26T16:01:40+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.017322s ]
+
+[ 2019-12-26T16:02:54+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: select * from (select ygmc,yggh,row_number() over(order by id)as rowid from daygda where bm='车间')as a where a.rowid between 1 and 1+10 [ RunTime:0.001979s ]
+
+[ 2019-12-26T16:03:03+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: update scjhdj set jhsl=276,je=dj*276,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000372') and px >=(select  px from scjhdj where gpm='19122400000372') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000372') and ygmc<>'' [ RunTime:0.028118s ]
+
+[ 2019-12-26T16:03:03+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.015166s ]
+
+[ 2019-12-26T16:03:16+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: update scjhdj set jhsl=275,je=dj*275,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000371') and px >=(select  px from scjhdj where gpm='19122400000371') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000371') and ygmc<>'' [ RunTime:0.028027s ]
+
+[ 2019-12-26T16:03:17+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.018229s ]
+
+[ 2019-12-26T16:03:24+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: update scjhdj set jhsl=276,je=dj*276,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000371') and px >=(select  px from scjhdj where gpm='19122400000371') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000371') and ygmc<>'' [ RunTime:0.026974s ]
+
+[ 2019-12-26T16:03:24+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.018420s ]
+
+[ 2019-12-26T16:03:34+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: update scjhdj set jhsl=278,je=dj*278,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000371') and px >=(select  px from scjhdj where gpm='19122400000371') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000371') and ygmc<>'' [ RunTime:0.028648s ]
+
+[ 2019-12-26T16:03:35+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.013572s ]
+
+[ 2019-12-26T16:03:44+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: update scjhdj set jhsl=279,je=dj*279,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000371') and px >=(select  px from scjhdj where gpm='19122400000371') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000371') and ygmc<>'' [ RunTime:0.027787s ]
+
+[ 2019-12-26T16:03:45+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.015583s ]
+
+[ 2019-12-26T16:03:48+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: select * from (select ygmc,yggh,row_number() over(order by id)as rowid from daygda where bm='车间')as a where a.rowid between 1 and 1+10 [ RunTime:0.000507s ]
+
+[ 2019-12-26T16:03:55+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: update scjhdj set jhsl=250,je=dj*250,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000371') and px >=(select  px from scjhdj where gpm='19122400000371') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000371') and ygmc<>'' [ RunTime:0.029231s ]
+
+[ 2019-12-26T16:03:56+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.017958s ]
+
+[ 2019-12-26T16:06:05+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: update scjhdj set jhsl=250,je=dj*250,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000372') and px >=(select  px from scjhdj where gpm='19122400000372') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000372') and ygmc<>'' [ RunTime:0.028676s ]
+
+[ 2019-12-26T16:06:05+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.012681s ]
+
+[ 2019-12-26T16:06:19+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: update scjhdj set jhsl=5,je=dj*5,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000372') and px >=(select  px from scjhdj where gpm='19122400000372') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000372') and ygmc<>'' [ RunTime:0.028297s ]
+
+[ 2019-12-26T16:06:19+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.018596s ]
+
+[ 2019-12-26T16:06:39+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: update scjhdj set jhsl=250,je=dj*250,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000372') and px >=(select  px from scjhdj where gpm='19122400000372') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000372') and ygmc<>'' [ RunTime:0.002503s ]
+
+[ 2019-12-26T16:06:40+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.023864s ]
+
+[ 2019-12-26T16:09:11+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: update scjhdj set jhsl=254,je=dj*254,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000371') and px >=(select  px from scjhdj where gpm='19122400000371') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000371') and ygmc<>'' [ RunTime:0.028575s ]
+
+[ 2019-12-26T16:09:12+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.015674s ]
+
+[ 2019-12-26T16:09:43+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: update scjhdj set jhsl=274,je=dj*274,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000370') and px >=(select  px from scjhdj where gpm='19122400000370') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000370') and ygmc<>'' [ RunTime:0.028505s ]
+
+[ 2019-12-26T16:09:43+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.016031s ]
+
+[ 2019-12-26T16:09:59+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.000715s ]
+SQL: select * from daygda where  qxkh='0012001' [ RunTime:0.004582s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012001') [ RunTime:0.002794s ]
+SQL: select bm from dabmda where bm='固定' [ RunTime:0.000449s ]
+SQL: select qxmc from dabmda where bm='固定'and dh='0012'  [ RunTime:0.000197s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-26T16:10:07+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: update scjhdj set jhsl=271,je=dj*271,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000372') and px >=(select  px from scjhdj where gpm='19122400000372') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000372') and ygmc<>'' [ RunTime:0.026742s ]
+
+[ 2019-12-26T16:10:07+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.018720s ]
+
+[ 2019-12-26T16:10:09+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912190074' [ RunTime:0.017987s ]
+
+[ 2019-12-26T16:10:16+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912190077' [ RunTime:0.015447s ]
+
+[ 2019-12-26T16:10:30+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: update scjhdj set jhsl=271,je=dj*271,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000372') and px >=(select  px from scjhdj where gpm='19122400000372') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000372') and ygmc<>'' [ RunTime:0.000595s ]
+
+[ 2019-12-26T16:10:30+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' [ RunTime:0.014409s ]
+
+[ 2019-12-26T16:10:57+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' [ RunTime:0.016876s ]
+
+[ 2019-12-26T16:11:05+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/xgbcps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: select jhrq from scjhdj where gpm='19122400000352' [ RunTime:0.002401s ]
+SQL: update scjhdj set gxsl='' where gpm='19122400000352' [ RunTime:0.007255s ]
+ERR: 8114:[Microsoft][SQL Server Native Client 10.0][SQL Server]���������� varchar ת��Ϊ numeric ʱ������
+ [ SQL语句 ] : update scjhdj set gxsl='' where gpm='19122400000352'
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007127s ]
+
+[ 2019-12-26T16:11:47+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: update scjhdj set ygmc='小伟',yggh='90097',jhsl='2654',jhrq=convert(varchar(20),getdate(),20),je=dj*2654,jsr='',
+          yc=1,ycrq='2019-12-26 04:11:47' where gpm='19122400000349' and zt=0 [ RunTime:0.004829s ]
+
+[ 2019-12-26T16:11:48+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' [ RunTime:0.014836s ]
+
+[ 2019-12-26T16:11:55+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: update scjhdj set ygmc='小伟',yggh='90097',jhsl='2654',jhrq=convert(varchar(20),getdate(),20),je=dj*2654,jsr='',
+          yc=1,ycrq='2019-12-26 04:11:55' where gpm='19122400000349' and zt=0 [ RunTime:0.003130s ]
+
+[ 2019-12-26T16:11:56+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' [ RunTime:0.015857s ]
+
+[ 2019-12-26T16:11:57+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: update scjhdj set ygmc='小伟',yggh='90097',jhsl='2654',jhrq=convert(varchar(20),getdate(),20),je=dj*2654,jsr='',
+          yc=1,ycrq='2019-12-26 04:11:57' where gpm='19122400000349' and zt=0 [ RunTime:0.003098s ]
+
+[ 2019-12-26T16:11:58+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' [ RunTime:0.016775s ]
+
+[ 2019-12-26T16:12:01+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: update scjhdj set ygmc='小伟',yggh='90097',jhsl='2654',jhrq=convert(varchar(20),getdate(),20),je=dj*2654,jsr='',
+          yc=1,ycrq='2019-12-26 04:12:01' where gpm='19122400000349' and zt=0 [ RunTime:0.002948s ]
+
+[ 2019-12-26T16:12:01+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' [ RunTime:0.012055s ]
+
+[ 2019-12-26T16:12:06+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000446s ]
+
+[ 2019-12-26T16:12:34+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000423s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90097' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912240050'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.013799s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912240050' [ RunTime:0.013520s ]
+
+[ 2019-12-26T16:12:54+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240049' [ RunTime:0.022163s ]
+
+[ 2019-12-26T16:13:09+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: update scjhdj set jhsl=255,je=dj*255,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000359') and px >=(select  px from scjhdj where gpm='19122400000359') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000359') and ygmc<>'' [ RunTime:0.028138s ]
+
+[ 2019-12-26T16:13:09+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.000269s ]
+SQL: select * from daygda where  qxkh='0012001' [ RunTime:0.000470s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012001') [ RunTime:0.000242s ]
+SQL: select bm from dabmda where bm='固定' [ RunTime:0.000227s ]
+SQL: select qxmc from dabmda where bm='固定'and dh='0012'  [ RunTime:0.000151s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-26T16:13:10+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240049' [ RunTime:0.020394s ]
+
+[ 2019-12-26T16:13:15+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' [ RunTime:0.015909s ]
+
+[ 2019-12-26T16:13:17+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.001615s ]
+
+[ 2019-12-26T16:13:20+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: update scjhdj set ygmc='小伟',yggh='90097',jhsl='265',jhrq=convert(varchar(20),getdate(),20),je=dj*265,jsr='',
+          yc=1,ycrq='2019-12-26 04:13:20' where gpm='19122400000350' and zt=0 [ RunTime:0.003044s ]
+
+[ 2019-12-26T16:13:21+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' [ RunTime:0.011464s ]
+
+[ 2019-12-26T16:13:21+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.001414s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90097' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912240049'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.045483s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912240049' [ RunTime:0.016242s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000217s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90097') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912240049' order by px
+        [ RunTime:0.021921s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and qhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912240049' and px<(select px from scjhdj where jhrq='' and gpm='19122400000360') order by px desc [ RunTime:0.018384s ]
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19122400000360' and tmbh='1912240049' [ RunTime:0.002595s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs='' and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000360') and tmbh='1912240049' and 
+            px<(select px from scjhdj where jhrq='' and gpm='19122400000360' ) order by px desc  [ RunTime:0.010617s ]
+SQL: update scjhdj set jhsl=250.0000,je=250.0000*dj,ygmc='小伟',yggh='90097',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19122400000360' [ RunTime:0.002232s ]
+
+[ 2019-12-26T16:13:34+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90097' and ygmc='小伟' and jhrq  between '2019-12-26 00:00:00' and '2019-12-26 23:59:59' order by jhrq,kh [ RunTime:0.010059s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90097' and ygmc='小伟' and cast(jhrq as datetime)  between '2019-12-26 00:00:00' and '2019-12-26 23:59:59'  [ RunTime:0.040256s ]
+
+[ 2019-12-26T16:13:39+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240049' [ RunTime:0.018106s ]
+
+[ 2019-12-26T16:13:58+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: update scjhdj set jhsl=255,je=dj*255,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000360') and px >=(select  px from scjhdj where gpm='19122400000360') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000360') and ygmc<>'' [ RunTime:0.027438s ]
+
+[ 2019-12-26T16:13:58+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240049' [ RunTime:0.019492s ]
+
+[ 2019-12-26T16:14:10+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000686s ]
+
+[ 2019-12-26T16:14:14+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000495s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90097' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912240049'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.016388s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912240049' [ RunTime:0.013824s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000213s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90097') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912240049' order by px
+        [ RunTime:0.014199s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and qhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912240049' and px<(select px from scjhdj where jhrq='' and gpm='19122400000361') order by px desc [ RunTime:0.018555s ]
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19122400000361' and tmbh='1912240049' [ RunTime:0.002562s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs='' and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000361') and tmbh='1912240049' and 
+            px<(select px from scjhdj where jhrq='' and gpm='19122400000361' ) order by px desc  [ RunTime:0.010585s ]
+SQL: update scjhdj set jhsl=255.0000,je=255.0000*dj,ygmc='小伟',yggh='90097',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19122400000361' [ RunTime:0.002602s ]
+
+[ 2019-12-26T16:14:41+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240049' [ RunTime:0.025563s ]
+
+[ 2019-12-26T16:14:54+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: update scjhdj set jhsl=253,je=dj*253,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000361') and px >=(select  px from scjhdj where gpm='19122400000361') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000361') and ygmc<>'' [ RunTime:0.028281s ]
+
+[ 2019-12-26T16:14:54+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240049' [ RunTime:0.017179s ]
+
+[ 2019-12-26T16:15:02+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000947s ]
+
+[ 2019-12-26T16:15:05+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000610s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90097' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912240049'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.020455s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912240049' [ RunTime:0.013704s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000239s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90097') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912240049' order by px
+        [ RunTime:0.014660s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and qhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912240049' and px<(select px from scjhdj where jhrq='' and gpm='19122400000362') order by px desc [ RunTime:0.018753s ]
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19122400000362' and tmbh='1912240049' [ RunTime:0.002841s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs='' and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000362') and tmbh='1912240049' and 
+            px<(select px from scjhdj where jhrq='' and gpm='19122400000362' ) order by px desc  [ RunTime:0.010527s ]
+SQL: update scjhdj set jhsl=255.0000,je=255.0000*dj,ygmc='小伟',yggh='90097',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19122400000362' [ RunTime:0.002975s ]
+
+[ 2019-12-26T16:15:22+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000496s ]
+
+[ 2019-12-26T16:17:25+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' [ RunTime:0.014905s ]
+
+[ 2019-12-26T16:20:43+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' order by px [ RunTime:0.022259s ]
+
+[ 2019-12-26T16:21:02+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: update scjhdj set jhsl=268,je=dj*268,jsr='' where fzm=(select fzm from scjhdj
+                where gpm='19122400000351') and px >=(select  px from scjhdj where gpm='19122400000351') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000351') and ygmc<>'' [ RunTime:0.028013s ]
+
+[ 2019-12-26T16:21:03+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' order by px [ RunTime:0.016749s ]
+
+[ 2019-12-26T16:21:11+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000458s ]
+
+[ 2019-12-26T16:21:15+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000389s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90097' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912240048'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.049369s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912240048' [ RunTime:0.016513s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000190s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90097') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912240048' order by px
+        [ RunTime:0.021855s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and qhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912240048' and px<(select px from scjhdj where jhrq='' and gpm='19122400000353') order by px desc [ RunTime:0.018664s ]
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19122400000353' and tmbh='1912240048' [ RunTime:0.002572s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs='' and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000353') and tmbh='1912240048' and 
+            px<(select px from scjhdj where jhrq='' and gpm='19122400000353' ) order by px desc  [ RunTime:0.010602s ]
+SQL: update scjhdj set jhsl=268.0000,je=268.0000*dj,ygmc='小伟',yggh='90097',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19122400000353' [ RunTime:0.001189s ]
+
+[ 2019-12-26T16:28:16+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' order by px [ RunTime:0.020714s ]
+
+[ 2019-12-26T16:28:30+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: update scjhdj set jhsl=285,je=dj*285,jsr='' where tmbh=(select tmbh from scjhdj
+                where gpm='19122400000353') and px >=(select  px from scjhdj where gpm='19122400000353') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000353') and ygmc<>'' [ RunTime:0.081100s ]
+
+[ 2019-12-26T16:28:30+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' order by px [ RunTime:0.013489s ]
+
+[ 2019-12-26T16:28:36+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000443s ]
+
+[ 2019-12-26T16:28:39+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000439s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90097' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912240048'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.018189s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912240048' [ RunTime:0.013934s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000247s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90097') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912240048' order by px
+        [ RunTime:0.014518s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and qhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912240048' and px<(select px from scjhdj where jhrq='' and gpm='19122400000354') order by px desc [ RunTime:0.018681s ]
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19122400000354' and tmbh='1912240048' [ RunTime:0.002603s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs='' and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000354') and tmbh='1912240048' and 
+            px<(select px from scjhdj where jhrq='' and gpm='19122400000354' ) order by px desc  [ RunTime:0.010643s ]
+SQL: update scjhdj set jhsl=268.0000,je=268.0000*dj,ygmc='小伟',yggh='90097',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19122400000354' [ RunTime:0.002611s ]
+
+[ 2019-12-26T16:28:50+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' order by px [ RunTime:0.017650s ]
+
+[ 2019-12-26T16:29:04+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: update scjhdj set jhsl=280,je=dj*280,jsr='' where tmbh=(select tmbh from scjhdj
+                where gpm='19122400000354') and px >=(select  px from scjhdj where gpm='19122400000354') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000354') and ygmc<>'' [ RunTime:0.074860s ]
+
+[ 2019-12-26T16:29:05+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' order by px [ RunTime:0.016171s ]
+
+[ 2019-12-26T16:29:14+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000566s ]
+
+[ 2019-12-26T16:29:16+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000799s ]
+
+[ 2019-12-26T16:29:18+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000364s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90097' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912240048'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.017435s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912240048' [ RunTime:0.013960s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000245s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90097') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912240048' order by px
+        [ RunTime:0.014312s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and qhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912240048' and px<(select px from scjhdj where jhrq='' and gpm='19122400000355') order by px desc [ RunTime:0.018738s ]
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19122400000355' and tmbh='1912240048' [ RunTime:0.002589s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs='' and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000355') and tmbh='1912240048' and 
+            px<(select px from scjhdj where jhrq='' and gpm='19122400000355' ) order by px desc  [ RunTime:0.010757s ]
+SQL: update scjhdj set jhsl=280.0000,je=280.0000*dj,ygmc='小伟',yggh='90097',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19122400000355' [ RunTime:0.002462s ]
+
+[ 2019-12-26T16:29:58+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000482s ]
+
+[ 2019-12-26T16:30:01+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000378s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90097' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912240051'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.054608s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912240051' [ RunTime:0.017890s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000238s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90097') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912240051' order by px
+        [ RunTime:0.023562s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and qhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912240051' and px<(select px from scjhdj where jhrq='' and gpm='19122400000373') order by px desc [ RunTime:0.018908s ]
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19122400000373' and tmbh='1912240051' [ RunTime:0.002660s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs='' and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000373') and tmbh='1912240051' and 
+            px<(select px from scjhdj where jhrq='' and gpm='19122400000373' ) order by px desc  [ RunTime:0.010702s ]
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='19122400000373' [ RunTime:0.002285s ]
+SQL: update scjhdj set jhsl=250.0000,je=250.0000*dj,ygmc='小伟',yggh='90097',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19122400000373' [ RunTime:0.001158s ]
+
+[ 2019-12-26T16:30:05+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000477s ]
+
+[ 2019-12-26T16:30:13+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240051' order by px [ RunTime:0.029354s ]
+
+[ 2019-12-26T16:30:35+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgjhxx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: update scjhdj set jhsl=255,je=dj*255,jsr='' where tmbh=(select tmbh from scjhdj
+                where gpm='19122400000373') and px >=(select  px from scjhdj where gpm='19122400000373') and tmbh=(select tmbh from scjhdj 
+                where gpm='19122400000373') and ygmc<>'' [ RunTime:0.072196s ]
+
+[ 2019-12-26T16:30:36+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240051' order by px [ RunTime:0.017873s ]
+
+[ 2019-12-26T16:30:39+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000568s ]
+
+[ 2019-12-26T16:30:42+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000490s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90097' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912240051'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.023454s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912240051' [ RunTime:0.015824s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000308s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90097') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912240051' order by px
+        [ RunTime:0.016691s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and qhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912240051' and px<(select px from scjhdj where jhrq='' and gpm='19122400000374') order by px desc [ RunTime:0.019545s ]
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19122400000374' and tmbh='1912240051' [ RunTime:0.003255s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs='' and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000374') and tmbh='1912240051' and 
+            px<(select px from scjhdj where jhrq='' and gpm='19122400000374' ) order by px desc  [ RunTime:0.010794s ]
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='19122400000374' [ RunTime:0.002129s ]
+SQL: update scjhdj set jhsl=250.0000,je=250.0000*dj,ygmc='小伟',yggh='90097',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19122400000374' [ RunTime:0.002632s ]
+
+[ 2019-12-26T16:30:49+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240051' order by px [ RunTime:0.020728s ]
+
+[ 2019-12-26T16:31:01+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/xgccs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: select * from scjhdj where tmbh in (select tmbh from scjhdj where gpm='19122400000374')
+           and ch in (select ch from scjhdj where gpm='19122400000374') and zt=0 [ RunTime:0.014878s ]
+SQL: update scjhdj set jhsl=255.0000,sl=255.0000,je=255.0000*dj,yc=1,ycrq='2019-12-26 16:31:01',ycccsl=250.0000 where zt=0 and jhrq<>'' and tmbh=(select tmbh from scjhdj where gpm='19122400000374') [ RunTime:0.024331s ]
+
+[ 2019-12-26T16:31:02+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240051' order by px [ RunTime:0.016847s ]
+
+[ 2019-12-26T16:31:07+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000537s ]
+
+[ 2019-12-26T16:31:10+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000626s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90097' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912240051'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.019893s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912240051' [ RunTime:0.013703s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000242s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90097') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912240051' order by px
+        [ RunTime:0.014551s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and qhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912240051' and px<(select px from scjhdj where jhrq='' and gpm='19122400000375') order by px desc [ RunTime:0.018442s ]
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19122400000375' and tmbh='1912240051' [ RunTime:0.002623s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs='' and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19122400000375') and tmbh='1912240051' and 
+            px<(select px from scjhdj where jhrq='' and gpm='19122400000375' ) order by px desc  [ RunTime:0.010696s ]
+SQL: update scjhdj set jhsl=255.0000,je=255.0000*dj,ygmc='小伟',yggh='90097',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19122400000375' [ RunTime:0.002548s ]
+

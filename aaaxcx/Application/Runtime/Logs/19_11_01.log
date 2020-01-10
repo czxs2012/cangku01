@@ -1,0 +1,2851 @@
+[ 2019-11-01T14:03:21+08:00 ] ::1 /aaaxcx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2019-11-01T14:03:47+08:00 ] ::1 /aaaxcx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002930s ]
+
+[ 2019-11-01T14:04:44+08:00 ] ::1 /aaaxcx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-01T14:05:11+08:00 ] ::1 /aaaxcx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-01T14:14:54+08:00 ] ::1 /aaaxcx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-01T14:22:02+08:00 ] ::1 /aaaxcx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-01T14:22:22+08:00 ] ::1 /aaaxcx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:00:42+08:00 ] ::1 /aaaxcx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:00:50+08:00 ] ::1 /aaaxcx/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:01:01+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载控制器:Lhcx
+
+[ 2019-11-01T15:01:44+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and '' order  by ygmc,kh,lhrq [ RunTime:0.007812s ]
+
+[ 2019-11-01T15:02:20+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=%272019-08-31%27&jsrq=%272019-10-31%27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ''2019-08-31' 00:00:00' and ''2019-10-31'' order  by ygmc,kh,lhrq [ RunTime:0.004883s ]
+ERR: 102:[Microsoft][SQL Server Native Client 10.0][SQL Server]'2019' �������﷨����16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ''2019-08-31' 00:00:00' and ''2019-10-31'' order  by ygmc,kh,lhrq
+
+[ 2019-11-01T15:02:28+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=%272019-08-31%27&jsrq=272019-10-31%27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ''2019-08-31' 00:00:00' and '272019-10-31'' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+ERR: 102:[Microsoft][SQL Server Native Client 10.0][SQL Server]'2019' �������﷨����105:[Microsoft][SQL Server Native Client 10.0][SQL Server]�ַ��� '272019-10-31' order  by ygmc,kh,lhrq' ������Ų�������16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ''2019-08-31' 00:00:00' and '272019-10-31'' order  by ygmc,kh,lhrq
+
+[ 2019-11-01T15:02:42+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=2019-08-31&jsrq=272019-10-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-31 00:00:00' and '272019-10-31' order  by ygmc,kh,lhrq [ RunTime:0.013672s ]
+ERR: 241:[Microsoft][SQL Server Native Client 10.0][SQL Server]���ַ���ת�����ں�/��ʱ��ʱ��ת��ʧ�ܡ�
+ [ SQL语句 ] : select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-31 00:00:00' and '272019-10-31' order  by ygmc,kh,lhrq
+
+[ 2019-11-01T15:02:54+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=2019-08-31&jsrq=272019-10-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-31 00:00:00' and '272019-10-31' order  by ygmc,kh,lhrq [ RunTime:0.001953s ]
+ERR: 241:[Microsoft][SQL Server Native Client 10.0][SQL Server]���ַ���ת�����ں�/��ʱ��ʱ��ת��ʧ�ܡ�
+ [ SQL语句 ] : select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-31 00:00:00' and '272019-10-31' order  by ygmc,kh,lhrq
+
+[ 2019-11-01T15:03:10+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=2019-08-31&jsrq=2019-10-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-31 00:00:00' and '2019-10-31' order  by ygmc,kh,lhrq [ RunTime:0.015625s ]
+
+[ 2019-11-01T15:04:14+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=2019-08-31&jsrq=2019-10-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-31 00:00:00' and '2019-10-31' order  by ygmc,kh,lhrq [ RunTime:0.005859s ]
+
+[ 2019-11-01T15:04:43+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=2019-08-31&jsrq=2019-10-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-31 00:00:00' and '2019-10-31' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:06:17+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=2019-08-31&jsrq=2019-10-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.005859s ]
+
+[ 2019-11-01T15:06:21+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=2019-08-31&jsrq=2019-10-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:09:05+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=2019-08-31&jsrq=2019-10-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.007812s ]
+
+[ 2019-11-01T15:09:05+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=2019-08-31&jsrq=2019-10-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:09:33+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=2019-08-31&jsrq=2019-10-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.001953s ]
+
+[ 2019-11-01T15:12:00+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=2019-08-31&jsrq=2019-10-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.001953s ]
+
+[ 2019-11-01T15:12:00+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=2019-08-31&jsrq=2019-10-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:12:31+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=2019-08-31&jsrq=2019-10-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:12:47+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=2019-08-31&jsrq=2019-10-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:14:04+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=2019-08-31&jsrq=2019-10-31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.005859s ]
+
+[ 2019-11-01T15:17:45+08:00 ] 192.168.8.231 /aaaxcx/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.005859s ]
+
+[ 2019-11-01T15:19:16+08:00 ] 192.168.8.231 /aaaxcx/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:20:34+08:00 ] 192.168.8.231 /aaaxcx/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:21:17+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.005860s ]
+
+[ 2019-11-01T15:21:32+08:00 ] ::1 /aaaxcx/index.php/home/lhcx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.006835s ]
+
+[ 2019-11-01T15:23:07+08:00 ] 192.168.8.231 /aaaxcx/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:23:15+08:00 ] 192.168.8.231 /aaaxcx/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:24:42+08:00 ] ::1 /aaaxcx/home/lhcx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.005860s ]
+
+[ 2019-11-01T15:24:43+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:24:48+08:00 ] ::1 /aaaxcx/home/lhcx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:25:06+08:00 ] ::1 /aaaxcx/home/Lhqx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Lhqx
+
+[ 2019-11-01T15:25:20+08:00 ] ::1 /aaaxcx/home/Lhqx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载控制器:Lhqx
+
+[ 2019-11-01T15:25:27+08:00 ] ::1 /aaaxcx/home/Lhqx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载控制器:Lhqx
+
+[ 2019-11-01T15:25:35+08:00 ] ::1 /aaaxcx/home/lhqx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载控制器:Lhqx
+
+[ 2019-11-01T15:25:36+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:25:39+08:00 ] ::1 /aaaxcx/home/lhqx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载控制器:Lhqx
+
+[ 2019-11-01T15:25:49+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:27:03+08:00 ] ::1 /aaaxcx/home/lhqx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载控制器:Lhqx
+
+[ 2019-11-01T15:27:04+08:00 ] ::1 /aaaxcx/home/lhqx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载控制器:Lhqx
+
+[ 2019-11-01T15:27:04+08:00 ] ::1 /aaaxcx/home/lhqx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载控制器:Lhqx
+
+[ 2019-11-01T15:27:04+08:00 ] ::1 /aaaxcx/home/lhqx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载控制器:Lhqx
+
+[ 2019-11-01T15:27:04+08:00 ] ::1 /aaaxcx/home/lhqx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载控制器:Lhqx
+
+[ 2019-11-01T15:27:05+08:00 ] ::1 /aaaxcx/home/lhqx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载控制器:Lhqx
+
+[ 2019-11-01T15:27:05+08:00 ] ::1 /aaaxcx/home/lhqx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载控制器:Lhqx
+
+[ 2019-11-01T15:27:22+08:00 ] ::1 /aaaxcx/index.php/home/lhqx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载控制器:Lhqx
+
+[ 2019-11-01T15:27:28+08:00 ] ::1 /aaaxcx/index.php/home/lhqx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载控制器:Lhqx
+
+[ 2019-11-01T15:27:30+08:00 ] ::1 /aaaxcx/home/lhqx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载控制器:Lhqx
+
+[ 2019-11-01T15:27:32+08:00 ] ::1 /aaaxcx/home/Lhqx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载控制器:Lhqx
+
+[ 2019-11-01T15:27:33+08:00 ] ::1 /aaaxcx/home/lhcx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:27:35+08:00 ] ::1 /aaaxcx/home/lhcx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:27:41+08:00 ] ::1 /aaaxcx/home/lhcx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:27:42+08:00 ] ::1 /aaaxcx/home/lhcx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.002930s ]
+
+[ 2019-11-01T15:27:43+08:00 ] ::1 /aaaxcx/home/lhcx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:27:50+08:00 ] ::1 /aaaxcx/home/lhcx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.001954s ]
+
+[ 2019-11-01T15:27:55+08:00 ] ::1 /aaaxcx/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:27:56+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:28:03+08:00 ] ::1 /aaaxcx/home/lhcx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:28:19+08:00 ] ::1 /aaaxcx/home/lhcx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:28:22+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:28:25+08:00 ] ::1 /aaaxcx/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-01T15:28:35+08:00 ] ::1 /aaaxcx/home/lhcx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.001954s ]
+
+[ 2019-11-01T15:28:41+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:28:47+08:00 ] ::1 /aaaxcx/home/lhcx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:28:58+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:29:13+08:00 ] ::1 /aaaxcx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2019-11-01T15:29:20+08:00 ] ::1 /aaaxcx/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-01T15:29:24+08:00 ] ::1 /aaaxcx/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:29:33+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:29:35+08:00 ] ::1 /aaaxcx/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:29:41+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:30:09+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:30:14+08:00 ] ::1 /aaaxcx/home/Lhcx/lhcxcx?ksrq=2019-11-01&2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.007812s ]
+
+[ 2019-11-01T15:30:23+08:00 ] ::1 /aaaxcx/home/Lhcx/lhcxcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:30:55+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:32:13+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:32:43+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:33:00+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:33:39+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  ' 00:00:00' and ' 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:34:13+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:35:19+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:38:11+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:38:43+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:39:11+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:40:26+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:40:27+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.006836s ]
+
+[ 2019-11-01T15:40:28+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:40:29+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:40:30+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:40:31+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:40:31+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:40:32+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:40:33+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:40:34+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.007813s ]
+
+[ 2019-11-01T15:40:35+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.005859s ]
+
+[ 2019-11-01T15:40:38+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:40:42+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:40:52+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:40:56+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:40:57+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:40:58+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:40:58+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:41:00+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:41:10+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:41:11+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:41:13+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:41:15+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:41:17+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:41:19+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:42:46+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:42:47+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:42:49+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:42:50+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:42:52+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:42:53+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:42:54+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:42:56+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:43:02+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:43:02+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:43:03+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:43:05+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.006836s ]
+
+[ 2019-11-01T15:43:05+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:43:06+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:43:06+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:43:07+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:43:07+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.004882s ]
+
+[ 2019-11-01T15:43:08+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:43:08+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:43:09+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:43:09+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:43:10+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:43:10+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:43:13+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:43:14+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:43:15+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:43:16+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:43:17+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:43:17+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:43:18+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:43:18+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:43:20+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:43:20+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:43:21+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:43:22+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:43:35+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-08-01 00:00:00' and '2019-08-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.005860s ]
+
+[ 2019-11-01T15:43:45+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-01T15:44:12+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:44:13+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-31 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:44:13+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:44:14+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:44:24+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-01T15:48:12+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='' and ygmc='' and cast(jhrq as datetime)  between '2019-11-01' and '2019-11-01' order by jhrq,kh [ RunTime:0.011719s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='' and ygmc='' and cast(jhrq as datetime)  between '2019-11-01' and '2019-11-01'  [ RunTime:0.008789s ]
+
+[ 2019-11-01T15:49:35+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='' and ygmc='' and cast(jhrq as datetime)  between '2019-11-01' and '2019-11-01' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='' and ygmc='' and cast(jhrq as datetime)  between '2019-11-01' and '2019-11-01'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:49:46+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01' and '2019-11-01' order by jhrq,kh [ RunTime:0.008789s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01' and '2019-11-01'  [ RunTime:0.007813s ]
+
+[ 2019-11-01T15:50:03+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='800001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01' and '2019-11-01' order by jhrq,kh [ RunTime:0.008789s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='800001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01' and '2019-11-01'  [ RunTime:0.007812s ]
+
+[ 2019-11-01T15:50:20+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01' and '2019-11-01' order by jhrq,kh [ RunTime:0.008789s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01' and '2019-11-01'  [ RunTime:0.007812s ]
+
+[ 2019-11-01T15:52:13+08:00 ] ::1 /aaaxcx/home/clcx/clcx?yggh=90001&ygmc=%E5%B0%8F%E9%A3%93&ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01' and '2019-11-01' order by jhrq,kh [ RunTime:0.000000s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01' and '2019-11-01'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T15:56:30+08:00 ] ::1 /aaaxcx/home/clcx/clcx?yggh=90001&ygmc=%E5%B0%8F%E9%A3%93&ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-0100:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.002930s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-0100:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.011719s ]
+ERR: 241:[Microsoft][SQL Server Native Client 10.0][SQL Server]���ַ���ת�����ں�/��ʱ��ʱ��ת��ʧ�ܡ�
+ [ SQL语句 ] :  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-0100:00:00' and '2019-11-01 23:59:59' 
+
+[ 2019-11-01T15:56:45+08:00 ] ::1 /aaaxcx/home/clcx/clcx?yggh=90001&ygmc=%E5%B0%8F%E9%A3%93&ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.007813s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.007813s ]
+
+[ 2019-11-01T16:27:39+08:00 ] ::1 /aaaxcx/home/gpcx/gpcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-01T16:28:01+08:00 ] ::1 /aaaxcx/home/gpcx/gpcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-01T16:28:27+08:00 ] ::1 /aaaxcx/home/gpcx/gpcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-01T16:30:23+08:00 ] ::1 /aaaxcx/home/clcx/clcx?yggh=90001&ygmc=%E5%B0%8F%E9%A3%93&ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.002929s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T16:31:05+08:00 ] ::1 /aaaxcx/home/gpcx/gpcxcx?gpm=1911010001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-11-01T16:31:32+08:00 ] ::1 /aaaxcx/home/gpcx/gpcxcx?gpm=1911010001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+ERR: -33:Invalid value type for option Database was specified.  String type was expected.
+
+[ 2019-11-01T16:31:50+08:00 ] ::1 /aaaxcx/home/gpcx/gpcxcx?gpm=1911010001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select ch,sb,a.kh,ysmc,ms,ceiling(sl)as sl,zh,ygmc,gxmc,convert(nvarchar(30),isnull(ceiling(jhsl),0)) as jhsl,
+       convert(nvarchar(30),convert(demical(18,6),dj))as dj,convert(nvarchar(30),convert(decimal(18,6),je)) as je,
+       case(when bz<>'' then '作废' else '未作废' end )as bz,zt,b,tp from scjhdj a left join daks_tp b on a.kh=b.kh 
+       where tmbh='1911010001' order  by px
+        [ RunTime:0.000976s ]
+ERR: 156:[Microsoft][SQL Server Native Client 10.0][SQL Server]�ؼ��� 'when' �������﷨����16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select ch,sb,a.kh,ysmc,ms,ceiling(sl)as sl,zh,ygmc,gxmc,convert(nvarchar(30),isnull(ceiling(jhsl),0)) as jhsl,
+       convert(nvarchar(30),convert(demical(18,6),dj))as dj,convert(nvarchar(30),convert(decimal(18,6),je)) as je,
+       case(when bz<>'' then '作废' else '未作废' end )as bz,zt,b,tp from scjhdj a left join daks_tp b on a.kh=b.kh 
+       where tmbh='1911010001' order  by px
+       
+
+[ 2019-11-01T16:32:42+08:00 ] ::1 /aaaxcx/home/gpcx/gpcxcx?gpm=1911010001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select ch,sb,a.kh,ysmc,ms,ceiling(sl)as sl,zh,ygmc,gxmc,convert(nvarchar(30),isnull(ceiling(jhsl),0)) as jhsl,
+       convert(nvarchar(30),convert(demical(18,6),dj))as dj,convert(nvarchar(30),convert(decimal(18,6),je)) as je,
+       case(when bz<>'' then '作废' else '未作废' end )as bz,zt,b,tp from scjhdj a left join daks_tp b on a.kh=b.kh 
+       where tmbh='1911010001' order  by px
+        [ RunTime:0.002930s ]
+ERR: 156:[Microsoft][SQL Server Native Client 10.0][SQL Server]�ؼ��� 'when' �������﷨����16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select ch,sb,a.kh,ysmc,ms,ceiling(sl)as sl,zh,ygmc,gxmc,convert(nvarchar(30),isnull(ceiling(jhsl),0)) as jhsl,
+       convert(nvarchar(30),convert(demical(18,6),dj))as dj,convert(nvarchar(30),convert(decimal(18,6),je)) as je,
+       case(when bz<>'' then '作废' else '未作废' end )as bz,zt,b,tp from scjhdj a left join daks_tp b on a.kh=b.kh 
+       where tmbh='1911010001' order  by px
+       
+
+[ 2019-11-01T16:44:07+08:00 ] ::1 /aaaxcx/home/gpcx/gpcxcx?gpm=1911010001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select ch,sb,a.kh,ysmc,ms,CEILING(sl)as sl,zh,ygmc,gxmc,CONVERT(nvarchar(30),ISNULL(CEILING(jhsl),0)) as jhsl,CONVERT(nvarchar(30),CONVERT(decimal(18,6),dj))as dj,
+CONVERT(nvarchar(30),CONVERT(decimal(18,6),je))as je,(case when bz<> '' then '作废' else '未作废' end)as bz,zt,b.tp from scjhdj a 
+left join daks_tp b on a.kh = b.kh where tmbh='1911010001'  order by px
+        [ RunTime:0.012695s ]
+
+[ 2019-11-01T16:44:17+08:00 ] ::1 /aaaxcx/home/gpcx/gpcxcx?gpm=1911010001
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select ch,sb,a.kh,ysmc,ms,CEILING(sl)as sl,zh,ygmc,gxmc,CONVERT(nvarchar(30),ISNULL(CEILING(jhsl),0)) as jhsl,CONVERT(nvarchar(30),CONVERT(decimal(18,6),dj))as dj,
+CONVERT(nvarchar(30),CONVERT(decimal(18,6),je))as je,(case when bz<> '' then '作废' else '未作废' end)as bz,zt,b.tp from scjhdj a 
+left join daks_tp b on a.kh = b.kh where tmbh='1911010001'  order by px
+        [ RunTime:0.000976s ]
+
+[ 2019-11-01T17:14:45+08:00 ] ::1 /aaaxcx/home/fg/fgjlcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select CONVERT(varchar(100),rq,23)as rq,ygmc,kh,kslx,gxmc,ysmc,ms,sl,jhsl  from scfgdj where rq
+ between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by ygmc,kh,rq [ RunTime:0.006836s ]
+
+[ 2019-11-01T17:15:27+08:00 ] ::1 /aaaxcx/home/fg/fgjlcx?ksrq=2019-11-01&jsrq=2019-11-01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select CONVERT(varchar(100),rq,23)as rq,ygmc,kh,kslx,gxmc,ysmc,ms,sl,jhsl  from scfgdj where rq
+ between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by ygmc,kh,rq [ RunTime:0.000977s ]
+
+[ 2019-11-01T20:15:29+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-01T20:17:57+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-01T20:18:06+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-01T20:19:21+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:20:03+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:22:43+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:23:47+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-01T20:24:06+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000000s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:25:56+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='' and ygmc='' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.009765s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='' and ygmc='' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.007813s ]
+
+[ 2019-11-01T20:26:23+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='' and ygmc='' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='' and ygmc='' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:27:03+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='' and ygmc='' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='' and ygmc='' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:27:25+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='' and ygmc='' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000000s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='' and ygmc='' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-01T20:27:45+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='' and ygmc='' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='' and ygmc='' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:28:43+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='' and ygmc='' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000000s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='' and ygmc='' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-01T20:28:57+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='' and ygmc='' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000000s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='' and ygmc='' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:29:10+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='' and ygmc='' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='' and ygmc='' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-01T20:29:17+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:30:47+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-01T20:31:13+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:31:46+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-01T20:32:14+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:32:27+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000000s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:32:30+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:36:14+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000000s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:36:36+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000000s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:39:24+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000000s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:39:46+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000000s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-01T20:40:03+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:40:07+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.002930s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:40:21+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:40:30+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:40:43+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:41:43+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:42:06+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.005859s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-01T20:42:12+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:42:27+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-01T20:42:42+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-01T20:43:00+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-01T20:43:28+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-01T20:52:04+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T20:52:26+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000000s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-01T21:00:37+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-01T21:00:52+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000000s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T21:00:58+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-01T21:01:09+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-01T21:01:15+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T21:01:27+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-01T21:01:33+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T21:01:52+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000000s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T21:02:28+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T21:03:21+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-01T21:03:52+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T21:04:07+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000000s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T21:04:21+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000000s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T21:04:35+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T21:04:58+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T21:05:08+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-01T21:05:14+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-01T21:10:54+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.002930s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-01T21:11:21+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000000s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T21:11:26+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-01T21:11:34+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-01T21:11:51+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-01T21:11:56+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T21:12:01+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T21:12:07+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T21:12:14+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-01T21:12:37+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-01T21:13:07+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-01 23:59:59'  [ RunTime:0.000976s ]
+

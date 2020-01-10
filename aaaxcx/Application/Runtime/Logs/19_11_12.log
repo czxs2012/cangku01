@@ -1,0 +1,1416 @@
+[ 2019-11-12T14:28:55+08:00 ] ::1 /aaaxcx/index.php/Home/Gpsm/cxjhsx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.005859s ]
+
+[ 2019-11-12T14:30:02+08:00 ] ::1 /aaaxcx/index.php/Home/Gpsm/cxjhgx?yggh=90001&tmbh=1911090028
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1911090028' and a.yggh='' and qhqr=0)  [ RunTime:0.036133s ]
+
+[ 2019-11-12T14:30:38+08:00 ] ::1 /aaaxcx/index.php/Home/Gpsm/cxjhgx?yggh=90001&tmbh=1911090028
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh and b.gxmc in(
+         select a.gxmc from scjhdj a where tmbh='1911090028' and a.yggh='' and qhqr=0)  [ RunTime:0.004883s ]
+SQL: select ch,sb,zh,kh,ysmc,ms,gxmc,jhrq,px,sl,isnull(ceiling(jhsl),0)as jhsl,je,gpm,qhqr from scjhdj where tmbh='1911090028'
+         and yggh='' and gxmc in(select b.gxmc from dagx_ygfp a,dagxda b where a.yggh='90001' and a.xh=b.xh) order by qhqr,px [ RunTime:0.014648s ]
+
+[ 2019-11-12T14:33:06+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.005859s ]
+SQL: select * from daygda where  qxkh='007' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='007') [ RunTime:0.005859s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.002930s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='001'  [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:33:07+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='007' [ RunTime:0.001953s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='007') [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.001953s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='001'  [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:34:19+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.001953s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='800001') [ RunTime:0.006836s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.001953s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='001'  [ RunTime:0.000000s ]
+
+[ 2019-11-12T14:35:50+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='800001') [ RunTime:0.001953s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='001'  [ RunTime:0.000976s ]
+
+[ 2019-11-12T14:35:55+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order by jhrq,kh [ RunTime:0.010742s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59'  [ RunTime:0.008789s ]
+
+[ 2019-11-12T14:35:58+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-11 00:00:00' and '2019-11-11 23:59:59' order by jhrq,kh [ RunTime:0.009766s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-11 00:00:00' and '2019-11-11 23:59:59'  [ RunTime:0.008789s ]
+
+[ 2019-11-12T14:36:00+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order by jhrq,kh [ RunTime:0.010742s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-30 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-12T14:36:13+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-12T14:36:42+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhdj/lhdjsm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select top 1 a.* from scjhdj a,daksgx b where tmbh='1911090028' and a.kh=b.kh and a.gxmc=b.gxmc and b.lhdj=1 and a.lhdj=0 order by a.px [ RunTime:0.016602s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LhdjController.class.php 第 26 行.
+
+[ 2019-11-12T14:37:03+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhdj/lhdjsm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select top 1 a.* from scjhdj a,daksgx b where tmbh='1911090029' and a.kh=b.kh and a.gxmc=b.gxmc and b.lhdj=1 and a.lhdj=0 order by a.px [ RunTime:0.017578s ]
+SQL: select * from daksgx where kh='001#' and lhdj=1 [ RunTime:0.000977s ]
+SQL: insert into sclhdj(lhrq,ygmc,yggh,zh,kh,kslx,ms,ysmc,sl,fzm,gpm,gxmc,tmbh,xh,px,sb) 
+        select getdate(),'小飓','90001','4','001#','衬衫','M','黑色','320.0000','1911090029','19110900000057','工序1','1911090029','1911090950533940705','1',''
+          update scjhdj set lhdj=1 where gpm='19110900000057' [ RunTime:0.005859s ]
+
+[ 2019-11-12T14:37:15+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.009766s ]
+
+[ 2019-11-12T14:37:32+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1911090028' [ RunTime:0.005859s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.004882s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90001') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1911090028' order by px
+        [ RunTime:0.013672s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1911090028' and px<(select px from scjhdj where jhrq='' and gpm='19110900000055') order by px desc [ RunTime:0.008789s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]���� 'jhqr' ��Ч��16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]���α�δ������
+ [ SQL语句 ] : select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1911090028' and px<(select px from scjhdj where jhrq='' and gpm='19110900000055') order by px desc
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19110900000055' and tmbh='1911090028' [ RunTime:0.006836s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19110900000055') order by px desc  [ RunTime:0.002930s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]��Ӧʹ��������������(�� 'and' ����)��ָ���˷ǲ������͵ı���ʽ��16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19110900000055') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='19110900000055' [ RunTime:0.004883s ]
+SQL: update scjhdj set jhsl='320.0000',je='320.0000'*dj,ygmc='小飓',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19110900000055' [ RunTime:0.017578s ]
+
+[ 2019-11-12T14:37:38+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-12T14:38:03+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Fg/fgdj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select gpm,zh,kh,ysmc,ms,gxmc,sl,dj,jhsl,(jhsl*dj)as je from scjhdj where tmbh='1911090028' and ygmc<>'' [ RunTime:0.009766s ]
+
+[ 2019-11-12T14:38:05+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Fg/fgdjtj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select top 1 * from scjhdj where gpm='19110900000055' and ygmc<>'' [ RunTime:0.014649s ]
+SQL: insert into scfgdj(rq,yggh,ygmc,kh,kslx,gxmc,ms,ysmc,sl,jhsl,zt,bz) select getdate(),'90001','小飓','001#',
+              '衬衫','工序1','M','黑色','320.0000','320.0000','0',''
+              update  scjhdj set jhrq='',ygmc='',yggh='',lhrq='',je=0,jhsl=null where gpm='19110900000055' [ RunTime:0.020508s ]
+
+[ 2019-11-12T14:38:13+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:38:27+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1911090028' [ RunTime:0.000976s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000000s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90001') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1911090028' order by px
+        [ RunTime:0.000977s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1911090028' and px<(select px from scjhdj where jhrq='' and gpm='19110900000055') order by px desc [ RunTime:0.001953s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]���� 'jhqr' ��Ч��16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]���α�δ������
+ [ SQL语句 ] : select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1911090028' and px<(select px from scjhdj where jhrq='' and gpm='19110900000055') order by px desc
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19110900000055' and tmbh='1911090028' [ RunTime:0.000000s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19110900000055') order by px desc  [ RunTime:0.000000s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]��Ӧʹ��������������(�� 'and' ����)��ָ���˷ǲ������͵ı���ʽ��16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19110900000055') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='19110900000055' [ RunTime:0.000976s ]
+SQL: update scjhdj set jhsl='320.0000',je='320.0000'*dj,ygmc='小飓',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19110900000055' [ RunTime:0.000976s ]
+
+[ 2019-11-12T14:38:36+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-12T14:38:45+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-11 00:00:00' and '2019-11-11 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-11 00:00:00' and '2019-11-11 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-12T14:38:46+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-12T14:38:49+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:39:02+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1911090028' [ RunTime:0.001953s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000000s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90001') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1911090028' order by px
+        [ RunTime:0.000977s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1911090028' and px<(select px from scjhdj where jhrq='' and gpm='19110900000056') order by px desc [ RunTime:0.001953s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]���� 'jhqr' ��Ч��16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]���α�δ������
+ [ SQL语句 ] : select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1911090028' and px<(select px from scjhdj where jhrq='' and gpm='19110900000056') order by px desc
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19110900000056' and tmbh='1911090028' [ RunTime:0.004883s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19110900000056') order by px desc  [ RunTime:0.001953s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]��Ӧʹ��������������(�� 'and' ����)��ָ���˷ǲ������͵ı���ʽ��16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19110900000056') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='19110900000056' [ RunTime:0.004882s ]
+SQL: update scjhdj set jhsl='320.0000',je='320.0000'*dj,ygmc='小飓',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19110900000056' [ RunTime:0.007813s ]
+
+[ 2019-11-12T14:39:06+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-12T14:39:19+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order by jhrq,kh [ RunTime:0.001954s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-30 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-12T14:39:20+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-11 00:00:00' and '2019-11-11 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-11 00:00:00' and '2019-11-11 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-12T14:39:21+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-12T14:39:22+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-30 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-12T14:39:23+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order by jhrq,kh [ RunTime:0.011719s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-10-01 00:00:00' and '2019-10-31 23:59:59'  [ RunTime:0.007812s ]
+
+[ 2019-11-12T14:39:24+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-30 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-12T14:39:26+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-11 00:00:00' and '2019-11-11 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-11 00:00:00' and '2019-11-11 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-12T14:39:27+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59'  [ RunTime:0.002930s ]
+
+[ 2019-11-12T14:40:08+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Fg/fgdj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select gpm,zh,kh,ysmc,ms,gxmc,sl,dj,jhsl,(jhsl*dj)as je from scjhdj where tmbh='191109090028' and ygmc<>'' [ RunTime:0.006836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:40:20+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Fg/fgdj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select gpm,zh,kh,ysmc,ms,gxmc,sl,dj,jhsl,(jhsl*dj)as je from scjhdj where tmbh='1911090028' and ygmc<>'' [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:40:26+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Fg/fgdjtj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select top 1 * from scjhdj where gpm='19110900000055' and ygmc<>'' [ RunTime:0.000976s ]
+SQL: insert into scfgdj(rq,yggh,ygmc,kh,kslx,gxmc,ms,ysmc,sl,jhsl,zt,bz) select getdate(),'90001','小飓','001#',
+              '衬衫','工序1','M','黑色','320.0000','320.0000','0',''
+              update  scjhdj set jhrq='',ygmc='',yggh='',lhrq='',je=0,jhsl=null where gpm='19110900000055' [ RunTime:0.000976s ]
+
+[ 2019-11-12T14:40:31+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-12T14:40:39+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:41:03+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1911090029' [ RunTime:0.006836s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000000s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90001') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1911090029' order by px
+        [ RunTime:0.011719s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1911090029' and px<(select px from scjhdj where jhrq='' and gpm='19110900000057') order by px desc [ RunTime:0.000977s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]���� 'jhqr' ��Ч��16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]���α�δ������
+ [ SQL语句 ] : select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1911090029' and px<(select px from scjhdj where jhrq='' and gpm='19110900000057') order by px desc
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19110900000057' and tmbh='1911090029' [ RunTime:0.004883s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19110900000057') order by px desc  [ RunTime:0.000976s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]��Ӧʹ��������������(�� 'and' ����)��ָ���˷ǲ������͵ı���ʽ��16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19110900000057') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='19110900000057' [ RunTime:0.004883s ]
+SQL: update scjhdj set jhsl='320.0000',je='320.0000'*dj,ygmc='小飓',yggh='90001',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19110900000057' [ RunTime:0.007813s ]
+
+[ 2019-11-12T14:41:08+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order by jhrq,kh [ RunTime:0.012695s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-12T14:41:24+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000977s ]
+
+[ 2019-11-12T14:41:28+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小飓' and yggh='90001' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:41:44+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Fg/fgdj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select gpm,zh,kh,ysmc,ms,gxmc,sl,dj,jhsl,(jhsl*dj)as je from scjhdj where tmbh='1911090028' and ygmc<>'' [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:41:46+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Fg/fgdjtj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select top 1 * from scjhdj where gpm='19110900000056' and ygmc<>'' [ RunTime:0.010742s ]
+SQL: insert into scfgdj(rq,yggh,ygmc,kh,kslx,gxmc,ms,ysmc,sl,jhsl,zt,bz) select getdate(),'90001','小飓','001#',
+              '衬衫','工序2','M','黑色','320.0000','320.0000','0',''
+              update  scjhdj set jhrq='',ygmc='',yggh='',lhrq='',je=0,jhsl=null where gpm='19110900000056' [ RunTime:0.008789s ]
+
+[ 2019-11-12T14:41:49+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-12T14:42:04+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-10-01 00:00:00' and '2019-10-31 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-12T14:42:04+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-01 00:00:00' and '2019-11-30 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-12T14:42:06+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-11 00:00:00' and '2019-11-11 23:59:59' order by jhrq,kh [ RunTime:0.000977s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-11 00:00:00' and '2019-11-11 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-12T14:42:09+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59'  [ RunTime:0.000000s ]
+
+[ 2019-11-12T14:42:10+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-11 00:00:00' and '2019-11-11 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-11 00:00:00' and '2019-11-11 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-12T14:42:11+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90001' and ygmc='小飓' and jhrq  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order by jhrq,kh [ RunTime:0.000976s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90001' and ygmc='小飓' and cast(jhrq as datetime)  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59'  [ RunTime:0.000977s ]
+
+[ 2019-11-12T14:42:38+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-12T14:42:45+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-12T14:42:46+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-12T14:42:47+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-12T14:42:48+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-12T14:42:49+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-12T14:42:53+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-12T14:42:54+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-12T14:42:56+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-12T14:43:00+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-12T14:43:00+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-12T14:43:15+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Cj/cjjdcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-12T14:43:48+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Cj/cjjdcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-12T14:44:02+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-12T14:44:13+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='800001') [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='001'  [ RunTime:0.000976s ]
+
+[ 2019-11-12T14:44:37+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-12T14:46:08+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='800001') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='001'  [ RunTime:0.000977s ]
+
+[ 2019-11-12T14:46:15+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.006835s ]
+
+[ 2019-11-12T14:46:33+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-11 00:00:00' and '2019-11-11 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.008789s ]
+
+[ 2019-11-12T14:46:36+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.007813s ]
+
+[ 2019-11-12T14:46:38+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-11 00:00:00' and '2019-11-11 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-12T14:46:41+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:46:48+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:46:52+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-11 00:00:00' and '2019-11-11 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000977s ]
+
+[ 2019-11-12T14:46:53+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:47:03+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-12T14:48:01+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-12T14:48:03+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:48:06+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.007813s ]
+
+[ 2019-11-12T14:48:09+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-11 00:00:00' and '2019-11-11 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:48:11+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-01 00:00:00' and '2019-11-30 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:48:14+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-10-01 00:00:00' and '2019-10-31 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:48:39+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.000976s ]
+
+[ 2019-11-12T14:51:32+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='9527' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='9527') [ RunTime:0.006836s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='001'  [ RunTime:0.000977s ]
+
+[ 2019-11-12T14:52:39+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhdj/lhdjsm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select top 1 a.* from scjhdj a,daksgx b where tmbh='1911090030' and a.kh=b.kh and a.gxmc=b.gxmc and b.lhdj=1 and a.lhdj=0 order by a.px [ RunTime:0.027344s ]
+SQL: select * from daksgx where kh='001#' and lhdj=1 [ RunTime:0.000977s ]
+SQL: insert into sclhdj(lhrq,ygmc,yggh,zh,kh,kslx,ms,ysmc,sl,fzm,gpm,gxmc,tmbh,xh,px,sb) 
+        select getdate(),'小明','90004','5','001#','衬衫','M','黑色','320.0000','1911090030','19110900000059','工序1','1911090030','1911090950533940705','1',''
+          update scjhdj set lhdj=1 where gpm='19110900000059' [ RunTime:0.002929s ]
+
+[ 2019-11-12T14:52:45+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:53:23+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90004' and ygmc='小明' and jhrq  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order by jhrq,kh [ RunTime:0.011719s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90004' and ygmc='小明' and cast(jhrq as datetime)  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59'  [ RunTime:0.009766s ]
+
+[ 2019-11-12T14:53:28+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小明' and yggh='90004' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.009765s ]
+
+[ 2019-11-12T14:53:42+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1911090030' [ RunTime:0.005859s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000977s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90004') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1911090030' order by px
+        [ RunTime:0.013672s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1911090030' and px<(select px from scjhdj where jhrq='' and gpm='19110900000059') order by px desc [ RunTime:0.002930s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]���� 'jhqr' ��Ч��16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]���α�δ������
+ [ SQL语句 ] : select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1911090030' and px<(select px from scjhdj where jhrq='' and gpm='19110900000059') order by px desc
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19110900000059' and tmbh='1911090030' [ RunTime:0.004882s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19110900000059') order by px desc  [ RunTime:0.000976s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]��Ӧʹ��������������(�� 'and' ����)��ָ���˷ǲ������͵ı���ʽ��16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19110900000059') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='19110900000059' [ RunTime:0.004883s ]
+SQL: update scjhdj set jhsl='320.0000',je='320.0000'*dj,ygmc='小明',yggh='90004',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19110900000059' [ RunTime:0.008789s ]
+
+[ 2019-11-12T14:53:50+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90004' and ygmc='小明' and jhrq  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90004' and ygmc='小明' and cast(jhrq as datetime)  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-12T14:53:56+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小明' and yggh='90004' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.002930s ]
+
+[ 2019-11-12T14:54:10+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1911090030' [ RunTime:0.002929s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000000s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90004') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1911090030' order by px
+        [ RunTime:0.001953s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1911090030' and px<(select px from scjhdj where jhrq='' and gpm='19110900000060') order by px desc [ RunTime:0.002930s ]
+ERR: 207:[Microsoft][SQL Server Native Client 10.0][SQL Server]���� 'jhqr' ��Ч��16945:[Microsoft][SQL Server Native Client 10.0][SQL Server]���α�δ������
+ [ SQL语句 ] : select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and jhqr=1 and yydh_wfxs='' and 
+                 tmbh='1911090030' and px<(select px from scjhdj where jhrq='' and gpm='19110900000060') order by px desc
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19110900000060' and tmbh='1911090030' [ RunTime:0.006836s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19110900000060') order by px desc  [ RunTime:0.000976s ]
+ERR: 4145:[Microsoft][SQL Server Native Client 10.0][SQL Server]��Ӧʹ��������������(�� 'and' ����)��ָ���˷ǲ������͵ı���ʽ��16954:[Microsoft][SQL Server Native Client 10.0][SQL Server]����ֱ��ִ�� SQL�����αꡣ
+ [ SQL语句 ] : select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19110900000060') order by px desc 
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='19110900000060' [ RunTime:0.005860s ]
+SQL: update scjhdj set jhsl='320.0000',je='320.0000'*dj,ygmc='小明',yggh='90004',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19110900000060' [ RunTime:0.007813s ]
+
+[ 2019-11-12T14:54:14+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1911090030' [ RunTime:0.001953s ]
+
+[ 2019-11-12T14:54:19+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90004' and ygmc='小明' and jhrq  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order by jhrq,kh [ RunTime:0.001953s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90004' and ygmc='小明' and cast(jhrq as datetime)  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59'  [ RunTime:0.000976s ]
+
+[ 2019-11-12T14:54:37+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Yggx/cxbm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select bm  from dabmda order by id [ RunTime:0.005859s ]
+
+[ 2019-11-12T14:54:40+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Yggx/cxyg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: select ygmc,yggh from daygda where bm='车间' [ RunTime:0.007812s ]
+
+[ 2019-11-12T14:54:43+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Yggx/cxgx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select b.gxmc,a.yggh,a.xh from dagx_ygfp a,dagxda b where a.xh=b.xh and a.yggh='90001' [ RunTime:0.008789s ]
+
+[ 2019-11-12T14:54:56+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Yggx/xgmm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: update daygda set  mm='1234' where yggh='90001' [ RunTime:0.025390s ]
+
+[ 2019-11-12T14:55:24+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='800001') [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000976s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='001'  [ RunTime:0.000000s ]
+
+[ 2019-11-12T14:56:05+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Cj/cjjdcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 53:[Microsoft][SQL Server Native Client 10.0]命名管道提供程序: 无法打开与 SQL Server 的连接 [53]. 0:[Microsoft][SQL Server Native Client 10.0]登录超时已过期53:[Microsoft][SQL Server Native Client 10.0]与 SQL Server 建立连接时，发生了与网络相关的或特定于实例的错误。找不到或无法访问服务器。请检查实例名称是否正确以及 SQL Server 是否已配置为允许远程连接。有关详细信息，请参阅 SQL Server 联机丛书。
+
+[ 2019-11-12T14:57:23+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000976s ]
+SQL: select * from daygda where  qxkh='800001' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='800001') [ RunTime:0.000976s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='001'  [ RunTime:0.000976s ]
+
+[ 2019-11-12T14:57:50+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Cj/cjjdcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select ch,kh,gxmc,px,ceiling(ISNULL(SUM(sl), 0)) as sl,ceiling(isnull(sum(jhsl),0))as jhsl,
+CEILING(ISNULL((sum(sl)-SUM(isnull(jhsl,0))),0))as wjsl,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where ch=(select top 1 ch from scjhdj where tmbh='1911090030') group by ch,kh,gxmc,px,bz order by bz [ RunTime:0.010742s ]
+
+[ 2019-11-12T15:00:01+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Cj/cjjdcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select ch,kh,gxmc,px,ceiling(ISNULL(SUM(sl), 0)) as sl,ceiling(isnull(sum(jhsl),0))as jhsl,
+CEILING(ISNULL((sum(sl)-SUM(isnull(jhsl,0))),0))as wjsl,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where ch=(select top 1 ch from scjhdj where tmbh='1911090030') group by ch,kh,gxmc,px,bz order by bz [ RunTime:0.001953s ]
+
+[ 2019-11-12T15:04:45+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='800004' [ RunTime:0.001953s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='800004') [ RunTime:0.006836s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='001'  [ RunTime:0.000976s ]
+
+[ 2019-11-12T15:06:39+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='老板' and yggh='90003' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.009766s ]
+
+[ 2019-11-12T15:06:41+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/clcx/clcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select kh,zh,tmbh,gxmc,ysmc,ms,ceiling(jhsl)as jhsl,CONVERT(varchar(100), jhrq, 23) as jhrq,convert(nvarchar(30),  
+                convert(decimal(18,6), dj)) as dj,convert(nvarchar(30),convert(decimal(18,6), je)) as je  from cmp
+                where yggh='90003' and ygmc='老板' and jhrq  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order by jhrq,kh [ RunTime:0.010743s ]
+SQL:  select count(jhrq) as zjl, isnull(ceiling(sum(jhsl)), 0) as zjhsl, convert(nvarchar(30),isnull(convert(decimal(18,6), sum(je)), 0)) as zje 
+                        from cmp where yggh='90003' and ygmc='老板' and cast(jhrq as datetime)  between '2019-11-12 00:00:00' and '2019-11-12 23:59:59'  [ RunTime:0.008789s ]
+
+[ 2019-11-12T15:06:46+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='80001' [ RunTime:0.000000s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='80001') [ RunTime:0.005859s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 28 行.
+SQL: select bm from dabmda where bm='' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm=''and dh='001'  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2019-11-12T15:06:47+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Lhcx/lhcxcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select convert(varchar,lhrq,23) as lhrq,ygmc,kh,ysmc,ms,zh,gxmc,tmbh,sb,sl from sclhdj
+  where cast(lhrq as datetime) between  '2019-11-12 00:00:00' and '2019-11-12 23:59:59' order  by ygmc,kh,lhrq [ RunTime:0.002930s ]
+
+[ 2019-11-12T15:06:49+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='老板' and yggh='90003' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.002929s ]
+
+[ 2019-11-12T15:06:56+08:00 ] 192.168.8.231 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='老板' and yggh='90003' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.001953s ]
+
+[ 2019-11-12T15:06:58+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000977s ]
+SQL: select * from daygda where  qxkh='9527' [ RunTime:0.001953s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='9527') [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.001953s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='001'  [ RunTime:0.000977s ]
+
+[ 2019-11-12T15:08:18+08:00 ] 192.168.8.211 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='001'  [ RunTime:0.000000s ]
+SQL: select * from daygda where  qxkh='9527' [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='9527') [ RunTime:0.000977s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000977s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='001'  [ RunTime:0.000976s ]
+

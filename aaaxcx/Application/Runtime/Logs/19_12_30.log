@@ -1,0 +1,741 @@
+[ 2019-12-30T10:25:03+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.011915s ]
+SQL: select * from daygda where  qxkh='0012001' [ RunTime:0.030299s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012001') [ RunTime:0.006099s ]
+SQL: select bm from dabmda where bm='固定' [ RunTime:0.001022s ]
+SQL: select qxmc from dabmda where bm='固定'and dh='0012'  [ RunTime:0.000186s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-30T10:29:23+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000305s ]
+SQL: select * from daygda where  qxkh='00108001' [ RunTime:0.003604s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='00108001') [ RunTime:0.002471s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000260s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0010'  [ RunTime:0.000230s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-30T10:29:27+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0010' and zt=1 [ RunTime:0.000239s ]
+SQL: select * from daygda where  qxkh='00108001' [ RunTime:0.000383s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='00108001') [ RunTime:0.000218s ]
+SQL: select bm from dabmda where bm='车间' [ RunTime:0.000175s ]
+SQL: select qxmc from dabmda where bm='车间'and dh='0010'  [ RunTime:0.000152s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-30T10:42:51+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.001637s ]
+SQL: select * from daygda where  qxkh='0012001' [ RunTime:0.008781s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012001') [ RunTime:0.002013s ]
+SQL: select bm from dabmda where bm='固定' [ RunTime:0.000380s ]
+SQL: select qxmc from dabmda where bm='固定'and dh='0012'  [ RunTime:0.000190s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-30T10:43:03+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' order by px [ RunTime:0.021425s ]
+
+[ 2019-12-30T10:47:45+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/zfgx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: select top 1 * from scjhdj where ch=(select ch from scjhdj where gpm='19122400000349' ) and zt=0 [ RunTime:0.007799s ]
+SQL: update scjhdj set bz='此工序作废',ycrq='2019-12-30 10:47:45',jsr='小伟' where ch=(select ch from scjhdj where gpm='19122400000349')
+                     and gxmc=(select gxmc from scjhdj where gpm='19122400000349') and zt=0 [ RunTime:0.019075s ]
+
+[ 2019-12-30T10:47:46+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' order by px [ RunTime:0.019909s ]
+
+[ 2019-12-30T10:47:53+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.000358s ]
+SQL: select * from daygda where  qxkh='0012001' [ RunTime:0.000516s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012001') [ RunTime:0.000334s ]
+SQL: select bm from dabmda where bm='固定' [ RunTime:0.001517s ]
+SQL: select qxmc from dabmda where bm='固定'and dh='0012'  [ RunTime:0.000136s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-30T10:48:02+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001742s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' order by px [ RunTime:0.019556s ]
+
+[ 2019-12-30T10:49:31+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.000400s ]
+SQL: select * from daygda where  qxkh='0012001' [ RunTime:0.000636s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012001') [ RunTime:0.000294s ]
+SQL: select bm from dabmda where bm='固定' [ RunTime:0.000306s ]
+SQL: select qxmc from dabmda where bm='固定'and dh='0012'  [ RunTime:0.000179s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-30T10:49:38+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' order by px [ RunTime:0.031058s ]
+
+[ 2019-12-30T10:54:13+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' order by px [ RunTime:0.016888s ]
+
+[ 2019-12-30T10:56:46+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.001131s ]
+SQL: select * from daygda where  qxkh='0012001' [ RunTime:0.000404s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012001') [ RunTime:0.000264s ]
+SQL: select bm from dabmda where bm='固定' [ RunTime:0.000222s ]
+SQL: select qxmc from dabmda where bm='固定'and dh='0012'  [ RunTime:0.000176s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-30T10:56:58+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' order by px [ RunTime:0.017094s ]
+
+[ 2019-12-30T10:58:27+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/zfgx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL:  select top 1 * from scjhdj where fzm in(select fzm from scjhdj where gpm='19122400000351') and zt=0 [ RunTime:0.008385s ]
+SQL: update scjhdj set bz='此扎作废',ycrq='2019-12-30 10:58:27',jsr='小伟' where zt=0 [ RunTime:0.671803s ]
+
+[ 2019-12-30T10:58:28+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240048' order by px [ RunTime:0.015110s ]
+
+[ 2019-12-30T10:59:50+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240052' order by px [ RunTime:0.024411s ]
+
+[ 2019-12-30T11:01:50+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240053' order by px [ RunTime:0.020809s ]
+
+[ 2019-12-30T11:03:08+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.000463s ]
+SQL: select * from daygda where  qxkh='0012001' [ RunTime:0.000592s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012001') [ RunTime:0.000495s ]
+SQL: select bm from dabmda where bm='固定' [ RunTime:0.000365s ]
+SQL: select qxmc from dabmda where bm='固定'and dh='0012'  [ RunTime:0.000349s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-30T11:03:14+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' order by px [ RunTime:0.019491s ]
+
+[ 2019-12-30T11:04:23+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.001016s ]
+SQL: select * from daygda where  qxkh='0012001' [ RunTime:0.001353s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012001') [ RunTime:0.001044s ]
+SQL: select bm from dabmda where bm='固定' [ RunTime:0.000747s ]
+SQL: select qxmc from dabmda where bm='固定'and dh='0012'  [ RunTime:0.000731s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-30T11:04:27+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240050' order by px [ RunTime:0.020649s ]
+
+[ 2019-12-30T11:04:45+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912120017' order by px [ RunTime:0.018756s ]
+
+[ 2019-12-30T11:05:25+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300002' order by px [ RunTime:0.017873s ]
+
+[ 2019-12-30T11:05:35+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300009' order by px [ RunTime:0.019919s ]
+
+[ 2019-12-30T11:05:44+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/zfgx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: select top 1 * from scjhdj where ch=(select ch from scjhdj where gpm='19123000000008' ) and zt=0 [ RunTime:0.007344s ]
+SQL: update scjhdj set bz='此工序作废',ycrq='2019-12-30 11:05:44',jsr='' where ch=(select ch from scjhdj where gpm='19123000000008')
+                     and gxmc=(select gxmc from scjhdj where gpm='19123000000008') and zt=0 [ RunTime:0.017253s ]
+
+[ 2019-12-30T11:05:45+08:00 ] 192.168.8.252 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300009' order by px [ RunTime:0.017153s ]
+
+[ 2019-12-30T11:07:09+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912240054' order by px [ RunTime:0.019764s ]
+
+[ 2019-12-30T11:09:09+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300002' order by px [ RunTime:0.017666s ]
+
+[ 2019-12-30T11:09:19+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/zfgx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: select top 1 * from scjhdj where ch=(select ch from scjhdj where gpm='19123000000001' ) and zt=0 [ RunTime:0.007694s ]
+SQL: update scjhdj set bz='此工序作废',ycrq='2019-12-30 11:09:19',jsr='' where ch=(select ch from scjhdj where gpm='19123000000001')
+                     and gxmc=(select gxmc from scjhdj where gpm='19123000000001') and zt=0 [ RunTime:0.017486s ]
+
+[ 2019-12-30T11:09:20+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300002' order by px [ RunTime:0.014054s ]
+
+[ 2019-12-30T11:09:53+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.000389s ]
+SQL: select * from daygda where  qxkh='0012001' [ RunTime:0.000486s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012001') [ RunTime:0.000260s ]
+SQL: select bm from dabmda where bm='固定' [ RunTime:0.000196s ]
+SQL: select qxmc from dabmda where bm='固定'and dh='0012'  [ RunTime:0.000173s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-30T11:10:00+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300002' order by px [ RunTime:0.021503s ]
+
+[ 2019-12-30T11:10:37+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.125826s ]
+
+[ 2019-12-30T11:10:41+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.002554s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90097' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912300002'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.048673s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912300002' [ RunTime:0.016658s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.002149s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90097') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912300002' order by px
+        [ RunTime:0.019775s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and qhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912300002' and px<(select px from scjhdj where jhrq='' and gpm='19123000000010') order by px desc [ RunTime:0.016709s ]
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19123000000010' and tmbh='1912300002' [ RunTime:0.002618s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs='' and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19123000000010') and tmbh='1912300002' and 
+            px<(select px from scjhdj where jhrq='' and gpm='19123000000010' ) order by px desc  [ RunTime:0.010305s ]
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='19123000000010' [ RunTime:0.002203s ]
+SQL: update scjhdj set jhsl=250.0000,je=250.0000*dj,ygmc='小伟',yggh='90097',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19123000000010' [ RunTime:0.027842s ]
+
+[ 2019-12-30T11:10:51+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300002' order by px [ RunTime:0.016616s ]
+
+[ 2019-12-30T11:13:16+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000372s ]
+
+[ 2019-12-30T11:13:22+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/ygclcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: select count(jhrq)as jhcs,isnull(ceiling(sum(jhsl)),0) as zjhsl,isnull(convert(nvarchar(30),convert(decimal(18,2),sum(je))),0) as zje from cmp
+          where ygmc='小伟' and yggh='90097' and jhrq between convert(varchar(100),GETDATE(),23)+' 00:00:00' 
+          and convert(varchar(100),getdate(),23)+' 23:59:59' [ RunTime:0.000572s ]
+
+[ 2019-12-30T11:13:26+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsm/gpsmcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: select sfgxmc from xtsz [ RunTime:0.000567s ]
+SQL:          select COUNT(*)as sl from (select gxmc from dagx_ygfp a,dagxda b where  a.yggh='90097' and a.xh=b.xh)a where a.gxmc in
+         (select gxmc from scjhdj where tmbh='1912300017'  and qhqr=0 and bz='' and yydh_wfxs='') [ RunTime:0.050942s ]
+SQL: select top 1 fzm from scjhdj where jhrq='' and yydh_wfxs='' and tmbh='1912300017' [ RunTime:0.016347s ]
+SQL: select top 1 skrlx from xtsz [ RunTime:0.000225s ]
+SQL: select top 1 gpm,a.kh,qhqr,a.bz,a.gxmc,kh,dj,sl,ms,ysmc,zh from scjhdj a,(select b.gxmc,c.ygmc,c.yggh from dagxda b,dagx_ygfp c 
+                  where b.xh=c.xh and c.yggh='90097') as bb where a.gxmc=bb.gxmc and jhrq='' and bz='' and yydh_wfxs=''
+                    and tmbh='1912300017' order by px
+        [ RunTime:0.020039s ]
+SQL: select top 1 gpm,gxmc from scjhdj where jhrq='' and bz='' and qhqr=1 and yydh_wfxs='' and 
+                 tmbh='1912300017' and px<(select px from scjhdj where jhrq='' and gpm='19123000000130') order by px desc [ RunTime:0.016935s ]
+SQL: select isnull(gxsl,0) as gxsl from scjhdj where gpm='19123000000130' and tmbh='1912300017' [ RunTime:0.002641s ]
+SQL: select top 1 isnull(jhsl,0) as sl from scjhdj where jhrq<>'' and bz='' and yydh_wfxs='' and ch 
+            in (select top 1 ch from scjhdj where jhrq='' and gpm='19123000000130') and tmbh='1912300017' and 
+            px<(select px from scjhdj where jhrq='' and gpm='19123000000130' ) order by px desc  [ RunTime:0.010540s ]
+SQL: select isnull(sl,0) as sl from scjhdj where gpm='19123000000130' [ RunTime:0.002306s ]
+SQL: update scjhdj set jhsl=250.0000,je=250.0000*dj,ygmc='小伟',yggh='90097',jhrq=convert(varchar(22),GETDATE(),120) where gpm='19123000000130' [ RunTime:0.002224s ]
+
+[ 2019-12-30T11:13:40+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300017' order by px [ RunTime:0.020123s ]
+
+[ 2019-12-30T11:13:58+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/zfgx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: select top 1 * from scjhdj where ch=(select ch from scjhdj where gpm='19123000000130' ) and zt=0 [ RunTime:0.007661s ]
+SQL: update scjhdj set bz='此工序作废',ycrq='2019-12-30 11:13:58',jsr='小伟' where ch=(select ch from scjhdj where gpm='19123000000130')
+                     and gxmc=(select gxmc from scjhdj where gpm='19123000000130') and zt=0 [ RunTime:0.018637s ]
+
+[ 2019-12-30T11:13:59+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300017' order by px [ RunTime:0.015827s ]
+
+[ 2019-12-30T11:14:08+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.001624s ]
+SQL: select * from daygda where  qxkh='0012001' [ RunTime:0.001347s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012001') [ RunTime:0.000993s ]
+SQL: select bm from dabmda where bm='固定' [ RunTime:0.001180s ]
+SQL: select qxmc from dabmda where bm='固定'and dh='0012'  [ RunTime:0.000741s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-30T11:14:14+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300017' order by px [ RunTime:0.018180s ]
+
+[ 2019-12-30T11:18:09+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/zfgx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: select cj from scjhdj  where ch =(select ch from scjhdj where gpm='19123000000130') and cj=1 [ RunTime:0.021271s ]
+SQL: update scjhdj set bz='',ycrq='2019-12-30 11:18:09',jsr='小伟' where ch=(select ch from scjhdj where gpm='19123000000130') and gxmc=(select gxmc from scjhdj where gpm='19123000000130') and zt=0 [ RunTime:0.017741s ]
+
+[ 2019-12-30T11:18:09+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300017' order by px [ RunTime:0.019941s ]
+
+[ 2019-12-30T11:18:15+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.000329s ]
+SQL: select * from daygda where  qxkh='0012001' [ RunTime:0.000478s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012001') [ RunTime:0.000285s ]
+SQL: select bm from dabmda where bm='固定' [ RunTime:0.002162s ]
+SQL: select qxmc from dabmda where bm='固定'and dh='0012'  [ RunTime:0.000140s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-30T11:18:21+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300017' order by px [ RunTime:0.020208s ]
+
+[ 2019-12-30T11:18:31+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/zfgx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: select top 1 * from scjhdj where ch=(select ch from scjhdj where gpm='19123000000130' ) and zt=0 [ RunTime:0.000912s ]
+SQL: update scjhdj set bz='此工序作废',ycrq='2019-12-30 11:18:31',jsr='小伟' where ch=(select ch from scjhdj where gpm='19123000000130')
+                     and gxmc=(select gxmc from scjhdj where gpm='19123000000130') and zt=0 [ RunTime:0.019127s ]
+
+[ 2019-12-30T11:18:31+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300017' order by px [ RunTime:0.018193s ]
+
+[ 2019-12-30T11:22:23+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300043' order by px [ RunTime:0.019134s ]
+
+[ 2019-12-30T11:22:35+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/zfgx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: select top 1 * from scjhdj where ch=(select ch from scjhdj where gpm='19123000000260' ) and zt=0 [ RunTime:0.008148s ]
+SQL: update scjhdj set bz='此工序作废',ycrq='2019-12-30 11:22:35',jsr='' where ch=(select ch from scjhdj where gpm='19123000000260')
+                     and gxmc=(select gxmc from scjhdj where gpm='19123000000260') and zt=0 [ RunTime:0.018846s ]
+
+[ 2019-12-30T11:22:35+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300043' order by px [ RunTime:0.014260s ]
+
+[ 2019-12-30T11:23:11+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300057' order by px [ RunTime:0.021092s ]
+
+[ 2019-12-30T13:11:57+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/zfgx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: select top 1 * from scjhdj where ch=(select ch from scjhdj where gpm='19123000000330' ) and zt=0 [ RunTime:0.034588s ]
+SQL: update scjhdj set bz='此工序作废',ycrq='2019-12-30 01:11:57',jsr='' where ch=(select ch from scjhdj where gpm='19123000000330')
+                     and gxmc=(select gxmc from scjhdj where gpm='19123000000330') and zt=0 [ RunTime:0.259100s ]
+
+[ 2019-12-30T13:11:58+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300057' order by px [ RunTime:0.398763s ]
+
+[ 2019-12-30T13:37:06+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300027' order by px [ RunTime:0.411968s ]
+
+[ 2019-12-30T13:37:15+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/zfgx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL:  select top 1 * from scjhdj where fzm in(select fzm from scjhdj where gpm='19123000000180') and zt=0 [ RunTime:0.016146s ]
+SQL: update scjhdj set bz='此扎作废',ycrq='2019-12-30 01:37:14',jsr='' where zt=0 [ RunTime:0.589588s ]
+
+[ 2019-12-30T13:37:16+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300027' order by px [ RunTime:0.014473s ]
+
+[ 2019-12-30T13:37:29+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+NOTIC: [8] Undefined index: db_port D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 127 行.
+NOTIC: [8] Undefined index: db_dsn D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params D:\WWW\aaaxcx\ThinkPHP\Library\Think\Db.class.php 第 130 行.
+SQL: select * from user where dh='0012' and zt=1 [ RunTime:0.000804s ]
+SQL: select * from daygda where  qxkh='0012001' [ RunTime:0.012950s ]
+SQL: select bm from dabmda where bm=(select bm from daygda where qxkh='0012001') [ RunTime:0.004168s ]
+SQL: select bm from dabmda where bm='固定' [ RunTime:0.000402s ]
+SQL: select qxmc from dabmda where bm='固定'and dh='0012'  [ RunTime:0.000183s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\aaaxcx\Application\Home\Controller\LoginController.class.php 第 37 行.
+
+[ 2019-12-30T13:37:34+08:00 ] 192.168.8.240 /aaaxcx/index.php/home/Gpsz/gpszcx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: select ch,sb,kh,ysmc,ms,sl,zh,ygmc,gxmc,yggh,zt,convert(varchar,convert(decimal(18,0),isnull(jhsl,0)))as jhsl, convert(varchar,convert(decimal(18,4),dj))as dj,je,
+gpm,(case when bz<>'' then '作废' else '未作废' end)as bz from scjhdj where tmbh='1912300027' order by px [ RunTime:0.021255s ]
+
